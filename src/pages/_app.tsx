@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/fontawesome/css/all.css";
 import "../styles/App.scss";
 import type { AppProps } from "next/app";
