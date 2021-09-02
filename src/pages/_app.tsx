@@ -2,9 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../styles/fontawesome/css/all.css";
 import "../styles/App.scss";
 import type { AppProps } from "next/app";
-// import Link from "next/link";
-// import { Nav, Navbar } from "react-bootstrap";
-import moment from "moment";
+import dayjs from "dayjs";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -15,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <p className="footer-line" aria-hidden="true">
             —————
           </p>
-          <p>&copy; Toni Ruhanen {moment().format("Y")}</p>
+          <p>&copy; Toni Ruhanen {dayjs().format("Y")}</p>
         </footer>
       </div>
     </>
