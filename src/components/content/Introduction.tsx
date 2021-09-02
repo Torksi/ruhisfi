@@ -9,7 +9,7 @@ const Introduction = () => {
       <div className="content-section" id="introduction">
         <div className="row">
           <div className="col-md-5">
-            <Fade triggerOnce direction="left" duration={800}>
+            <Fade triggerOnce direction="left" duration={1200}>
               <Image
                 alt="Helsinki"
                 src={helsinkiPicture}
@@ -25,6 +25,7 @@ const Introduction = () => {
               programmer and a student at Haaga-Helia University of Applied
               Sciences studying Business Information Technology.
             </p>
+            <p />
           </div>
         </div>
       </div>

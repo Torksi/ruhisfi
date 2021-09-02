@@ -199,6 +199,9 @@ a {
 
 .content-section {
   margin-top: 2rem;
+  &:last-of-type {
+    margin-bottom: 3rem;
+  }
 }
 
 .page-content {
@@ -332,6 +335,10 @@ a {
   color: #fff;
 }
 
+.text-purple {
+  color: $color-purple;
+}
+
 .bg-black {
   background-color: #333 !important;
 }
@@ -359,7 +366,7 @@ a {
 .social-media-icon {
   padding: 0.25rem;
   background-color: #fff;
-  border-radius: 2rem;
+  border-radius: 9999px;
   display: inline-block;
   width: 40px;
   height: 40px;

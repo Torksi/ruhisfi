@@ -40,11 +40,11 @@ const Languages = () => {
   };
 
   return (
-    <Fade triggerOnce>
-      <div className="content-section" id="languages">
-        <div className="row">
-          <div className="col-md-12">
-            <h2>Languages</h2>
+    <div className="content-section" id="languages">
+      <div className="row">
+        <div className="col-md-12">
+          <h2>Languages</h2>
+          <Fade triggerOnce duration={1200}>
             <LanguageCarousel />
             <p className="text-sm">
               {carouselPhrases.map((language) => {
@@ -55,10 +55,10 @@ const Languages = () => {
                 );
               })}
             </p>
-          </div>
+          </Fade>
         </div>
       </div>
-    </Fade>
+    </div>
   );
 };
 

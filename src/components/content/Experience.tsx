@@ -7,7 +7,7 @@ const Experience = () => {
       <div className="row">
         <div className="col-md-6 mb-4">
           <h2>Work Experience</h2>
-          <Fade triggerOnce direction="down" duration={800}>
+          <Fade triggerOnce direction="down" duration={1200}>
             <ExperienceTree
               experience={[
                 {
@@ -51,7 +51,7 @@ const Experience = () => {
         </div>
         <div className="col-md-6 mb-4">
           <h2>Education</h2>
-          <Fade triggerOnce direction="down" duration={800}>
+          <Fade triggerOnce direction="down" duration={1200}>
             <ExperienceTree
               experience={[
                 {
