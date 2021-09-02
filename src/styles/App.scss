@@ -1,0 +1,208 @@
+// Layout Colors
+$body-bg: #1c2128;
+$body-text: #adbac7;
+$border-bg: #444c56;
+$border-secondary-bg: #373e47;
+$navbar-bg: #2d333b;
+$navbar-text: rgba(205, 218, 229, 0.5);
+
+// Primary Colors
+$color-info: #316dca;
+$color-danger: #c93c37;
+$color-success: #347d39;
+$color-warning: #966600;
+$color-secondary: #768390;
+
+// Font Sizes
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.1;
+$h6-font-size: $font-size-base;
+
+$theme-colors: (
+  "primary": $color-info,
+  "success": $color-success,
+  "danger": $color-danger,
+  "warning": $color-warning,
+);
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  background-color: $body-bg;
+  color: $body-text;
+  padding-top: 4.5rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: $h1-font-size;
+}
+
+h2 {
+  color: #fff;
+  font-size: $h2-font-size;
+}
+
+h3 {
+  color: #fff;
+  font-size: $h3-font-size;
+}
+
+h4 {
+  color: #fff;
+  font-size: $h4-font-size;
+}
+
+h5 {
+  color: #fff;
+  font-size: $h5-font-size;
+}
+
+h6 {
+  color: #fff;
+  font-size: $h6-font-size;
+}
+
+.text-xs {
+  font-size: 0.7rem;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+.color-body {
+  color: $body-text;
+}
+
+.footer {
+  color: $color-secondary;
+  line-height: 0.25rem;
+  padding-top: 2rem;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+// Navbar
+
+.navbar {
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 1.5rem;
+  background-color: $navbar-bg;
+  background-color: rgba(45, 51, 59, 0.98);
+  color: $navbar-text;
+  border-bottom: $border-secondary-bg 1px solid;
+}
+
+.navbar-collapse.collapse {
+  display: block !important;
+}
+
+.navbar-nav > li,
+.navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-dark .navbar-nav .nav-link {
+    padding-left: 0.6rem;
+  }
+  body {
+    padding-top: 12rem;
+  }
+}
+
+// Skills Badge
+
+.skills-badge {
+  align-items: center;
+  border: $border-secondary-bg 1px solid;
+  border-radius: 0.5rem;
+  margin-top: 1.25rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-top: 0.75rem;
+  overflow: hidden;
+
+  &:hover {
+    border: $border-bg 1px solid;
+  }
+
+  .skills-text {
+    padding-left: 3rem;
+    font-size: 0.65rem;
+  }
+
+  i {
+    position: absolute;
+    margin-right: 1.25rem;
+    margin-top: 0.3rem;
+    overflow: hidden;
+  }
+}
+
+// Page Containers
+
+.footer-line {
+  color: $border-bg;
+  padding-bottom: 0.1rem;
+}
+
+.page-content {
+  padding: 1rem 1.5rem;
+  display: flex;
+}
+
+// Animations
+
+@media (prefers-reduced-motion: no-preference) {
+  .content-fadein {
+    animation-duration: 0.8s;
+    animation-name: content-fadein;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes content-fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Logo Colors
+
+.text-logo-node {
+  color: #90c53f;
+}
+
+.text-logo-react {
+  color: #61dafb;
+}
+
+.text-logo-html {
+  color: #dd4b25;
+}
+
+.text-logo-java {
+  color: #e32c2d;
+}
