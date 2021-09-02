@@ -41,6 +41,10 @@ body {
   padding-top: 0rem !important;
 }
 
+img {
+  border-radius: 0.5rem;
+}
+
 h1 {
   color: #fff;
   font-size: $h1-font-size;
@@ -210,6 +214,7 @@ a {
 
 .content-image {
   margin-bottom: 2rem !important;
+  margin-top: 0 !important;
 }
 
 .jumbotron {
