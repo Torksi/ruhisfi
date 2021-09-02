@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import Scroll from "react-scroll";
 import Image from "next/image";
-import helsinkiPicture from "../../images/helsinki.jpg";
+import kiiminkiPicture from "../../images/kiiminki.png";
 
 const Introduction = () => {
   return (
@@ -11,8 +11,9 @@ const Introduction = () => {
           <div className="col-md-5">
             <Fade triggerOnce direction="left" duration={1200}>
               <Image
-                alt="Helsinki"
-                src={helsinkiPicture}
+                draggable={false}
+                alt="Kiiminginjoki, Finland"
+                src={kiiminkiPicture}
                 className="content-image"
               />
             </Fade>
