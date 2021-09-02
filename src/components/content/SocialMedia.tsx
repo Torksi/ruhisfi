@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Fade } from "react-awesome-reveal";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+// import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const SocialMedia = () => {
   return (
@@ -21,7 +21,7 @@ const SocialMedia = () => {
             <i className="fab fa-instagram text-white" />
           </a>
         </Link>
-        <OverlayTrigger
+        {/* }<OverlayTrigger
           key="discord-tooltip"
           placement="bottom"
           overlay={<Tooltip id="discord-tooltip">Torksi#8081</Tooltip>}
@@ -29,7 +29,7 @@ const SocialMedia = () => {
           <a target="_blank" className="social-media-icon bg-logo-discord">
             <i className="fab fa-discord text-white" />
           </a>
-        </OverlayTrigger>
+        </OverlayTrigger>{ */}
       </p>
     </Fade>
   );
