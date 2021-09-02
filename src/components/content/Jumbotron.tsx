@@ -1,8 +1,13 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { useEffect, useState } from "react";
 import Typist from "react-typist";
+import Scroll from "react-scroll";
 import SocialMedia from "./SocialMedia";
 
 const Jumbotron = () => {
+  const { scroller } = Scroll;
+
   const [carouselPhrases] = useState([
     "Developer",
     "Sysadmin",
@@ -30,6 +35,19 @@ const Jumbotron = () => {
 
   return (
     <div className="jumbotron vertical-center">
+      <div id="scroll-down-indicator">
+        <i
+          className="far fa-chevron-down"
+          onClick={() => {
+            scroller.scrollTo("introduction", {
+              duration: 250,
+              delay: 0,
+              smooth: true,
+              offset: -25,
+            });
+          }}
+        />
+      </div>
       <div className="container">
         <h1 className="text-center text-lg">Toni Ruhanen</h1>
         <h2 className="text-center color-body">

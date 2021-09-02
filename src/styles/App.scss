@@ -18,6 +18,7 @@ $color-purple: #c678dd;
 $color-link: #61afef;
 
 // Font Sizes
+$font-family: "Share Tech Mono", monospace;
 $font-size-base: 1rem;
 $h1-font-size: $font-size-base * 2.1;
 $h2-font-size: $font-size-base * 2;
@@ -34,7 +35,7 @@ $theme-colors: (
 );
 
 body {
-  font-family: "Share Tech Mono", monospace;
+  font-family: $font-family;
   background-color: $body-secondary-bg;
   color: $body-text;
   padding-top: 0rem !important;
@@ -171,6 +172,11 @@ a {
 
 // Page Containers
 
+.tooltip-inner {
+  background-color: $border-secondary-bg;
+  font-family: $font-family;
+}
+
 .footer {
   color: $color-secondary;
   line-height: 0.25rem;
@@ -290,6 +296,10 @@ a {
   background-color: #333 !important;
 }
 
+.bg-logo-discord {
+  background-color: #5865f2 !important;
+}
+
 .bg-logo-instagram {
   background-color: #e1306c !important;
 }
@@ -305,14 +315,39 @@ a {
   display: inline-block;
   width: 40px;
   height: 40px;
+  cursor: pointer;
   &:not(:first-child) {
     margin-left: 0.5rem;
   }
 }
 
 .highlight {
-  font-family: "Share Tech Mono", monospace;
+  font-family: $font-family;
   background-color: $border-secondary-bg;
   color: $color-warning;
   padding: 0.2rem;
+}
+
+// Scroll Down Indicator
+#scroll-down-indicator {
+  // animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-45%);
+  }
 }

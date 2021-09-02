@@ -17,18 +17,7 @@ const Skills = () => {
         </div>
         <div className="col-md-7">
           <h2>Skills</h2>
-          <p>
-            Hi! I&apos;m <span className="text-white">Toni</span>, a Finnish
-            student at Haaga-Helia University of Applied Sciences studying
-            Business Information Technology. Checkout my{" "}
-            <span className="highlight">Github</span> account. You can also read
-            my blog <a href="#">here</a>.
-          </p>
-          <ul>
-            <li>test</li>
-            <li>test 2</li>
-            <li>test 3</li>
-          </ul>
+          <p>Coming soon.</p>
         </div>
       </div>
     </div>
