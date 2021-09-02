@@ -28,12 +28,12 @@ const Languages = () => {
     return (
       <>
         <Typist cursor={{ show: false }}>
-          <span className="text-md">{carouselPhrases[currentPhrase][0]}</span>
+          <p className="text-md mb-1">{carouselPhrases[currentPhrase][0]}</p>
         </Typist>
         <Typist cursor={{ show: false }}>
-          <span className="text-alt">
+          <p className="text-alt">
             <i>{carouselPhrases[currentPhrase][1]}</i>
-          </span>
+          </p>
         </Typist>
       </>
     );
@@ -45,9 +45,7 @@ const Languages = () => {
         <div className="row">
           <div className="col-md-12">
             <h2>Languages</h2>
-            <p>
-              <LanguageCarousel />
-            </p>
+            <LanguageCarousel />
             <p className="text-sm">
               {carouselPhrases.map((language) => {
                 return (

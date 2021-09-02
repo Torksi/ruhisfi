@@ -41,7 +41,7 @@ const Jumbotron = () => {
           onClick={() => {
             scroller.scrollTo("introduction", {
               duration: 250,
-              delay: 0,
+              delay: 100,
               smooth: true,
               offset: -25,
             });

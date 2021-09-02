@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <p className="footer-line" aria-hidden="true">
             —————
           </p>
-          <p>&copy; Toni Ruhanen {dayjs().format("Y")}</p>
+          <p>&copy; Toni Ruhanen {dayjs().format("YYYY")}</p>
         </footer>
       </div>
     </>

@@ -1,9 +1,9 @@
 import Title from "../components/Title";
 
 import Introduction from "../components/content/Introduction";
-import Skills from "../components/content/Skills";
 import Languages from "../components/content/Languages";
 import Jumbotron from "../components/content/Jumbotron";
+import Experience from "../components/content/Experience";
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
       <div className="container-flex">
         <Jumbotron />
       </div>
-      <div className="container pt-5">
+      <div className="container pt-2">
         <Introduction />
-        <Skills />
+        <Experience />
         <Languages />
       </div>
     </>

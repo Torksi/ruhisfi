@@ -79,6 +79,10 @@ h6 {
   font-size: 0.8rem;
 }
 
+.text-regular {
+  font-size: 1rem;
+}
+
 .text-alt {
   font-size: $h6-font-size;
 }
@@ -194,9 +198,7 @@ a {
 }
 
 .content-section {
-  &:not(:first-child) {
-    margin-top: 2.5rem;
-  }
+  margin-top: 2rem;
 }
 
 .page-content {
@@ -242,6 +244,44 @@ a {
 
 .social-media-icons {
   margin-top: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+// Experience Tree
+.experience-tree-trunk {
+  width: 0.25rem;
+  opacity: 0.25;
+  border-radius: 9999px;
+  background-color: $border-secondary-bg;
+  margin-left: 1.5rem;
+  max-width: 0.25rem;
+  min-width: 0.25rem;
+}
+
+.experience-tree-node {
+  margin-left: -0.47rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.experience-tree-dot {
+  position: absolute !important;
+  border-radius: 9999px;
+  position: relative;
+  opacity: 0.75;
+  width: 0.75rem;
+  min-width: 0.75rem;
+  min-height: 0.75rem;
+  height: 0.75rem;
+  background-color: #fff;
+  margin-top: 0.4rem;
+}
+
+.experience-container {
+  margin-left: 1.5rem;
 }
 
 // Animations
@@ -308,6 +348,14 @@ a {
   color: $body-text;
 }
 
+a {
+  &.color-body {
+    &:hover {
+      color: $body-text;
+    }
+  }
+}
+
 .social-media-icon {
   padding: 0.25rem;
   background-color: #fff;
@@ -326,6 +374,10 @@ a {
   background-color: $border-secondary-bg;
   color: $color-warning;
   padding: 0.2rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 // Scroll Down Indicator

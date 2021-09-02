@@ -1,24 +1,34 @@
 import { Fade } from "react-awesome-reveal";
 import Scroll from "react-scroll";
+import Image from "next/image";
+import helsinkiPicture from "../../images/helsinki.jpg";
 
 const Introduction = () => {
   return (
-    <Fade triggerOnce>
-      <Scroll.Element name="introduction">
-        <div className="content-section" id="home">
-          <div className="row">
-            <div className="col-md-12">
-              <h1>Toni Ruhanen</h1>
-              <p>
-                Hey! I&apos;m <span className="text-white">Toni</span>, a
-                Finnish student at Haaga-Helia University of Applied Sciences
-                studying Business Information Technology.
-              </p>
-            </div>
+    <Scroll.Element name="introduction">
+      <div className="content-section" id="introduction">
+        <div className="row">
+          <div className="col-md-5">
+            <Fade triggerOnce direction="left" duration={800}>
+              <Image
+                alt="Helsinki"
+                src={helsinkiPicture}
+                className="content-image"
+              />
+            </Fade>
+          </div>
+          <div className="col-md-7">
+            <h2>About Me</h2>
+            <p>
+              Hey there! I&apos;m{" "}
+              <span className="text-white">Toni Ruhanen</span>, a Finnish
+              programmer and a student at Haaga-Helia University of Applied
+              Sciences studying Business Information Technology.
+            </p>
           </div>
         </div>
-      </Scroll.Element>
-    </Fade>
+      </div>
+    </Scroll.Element>
   );
 };
 
