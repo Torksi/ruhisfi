@@ -1,5 +1,6 @@
 // Layout Colors
 $body-bg: #1c2128;
+$body-secondary-bg: #22272e;
 $body-text: #adbac7;
 $border-bg: #444c56;
 $border-secondary-bg: #373e47;
@@ -7,20 +8,23 @@ $navbar-bg: #2d333b;
 $navbar-text: rgba(205, 218, 229, 0.5);
 
 // Primary Colors
-$color-info: #316dca;
-$color-danger: #c93c37;
-$color-success: #347d39;
-$color-warning: #966600;
+$color-info: #61afef;
+$color-danger: #e06b74;
+$color-success: #98c379;
+$color-warning: #e5c07b;
 $color-secondary: #768390;
+$color-info: #61afef;
+$color-purple: #c678dd;
+$color-link: #61afef;
 
 // Font Sizes
 $font-size-base: 1rem;
-$h1-font-size: $font-size-base * 2;
-$h2-font-size: $font-size-base * 1.75;
-$h3-font-size: $font-size-base * 1.5;
-$h4-font-size: $font-size-base * 1.25;
-$h5-font-size: $font-size-base * 1.1;
-$h6-font-size: $font-size-base;
+$h1-font-size: $font-size-base * 2.1;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base * 1.1;
 
 $theme-colors: (
   "primary": $color-info,
@@ -31,9 +35,9 @@ $theme-colors: (
 
 body {
   font-family: "Share Tech Mono", monospace;
-  background-color: $body-bg;
+  background-color: $body-secondary-bg;
   color: $body-text;
-  padding-top: 4.5rem;
+  padding-top: 0rem !important;
 }
 
 h1 {
@@ -74,19 +78,29 @@ h6 {
   font-size: 0.8rem;
 }
 
-.color-body {
-  color: $body-text;
+.text-alt {
+  font-size: $h6-font-size;
 }
 
-.footer {
-  color: $color-secondary;
-  line-height: 0.25rem;
-  padding-top: 2rem;
-  cursor: default;
-  user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -webkit-touch-callout: none;
+.text-md {
+  font-size: $h4-font-size;
+}
+
+.text-lg {
+  font-size: $h1-font-size * 2.1;
+}
+
+ul {
+  list-style: square;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    color: $color-link;
+    text-decoration: underline;
+  }
 }
 
 // Navbar
@@ -95,7 +109,7 @@ h6 {
   margin-bottom: 0.75rem;
   padding: 0.25rem 1.5rem;
   background-color: $navbar-bg;
-  background-color: rgba(45, 51, 59, 0.98);
+  // background-color: rgba(45, 51, 59, 0.98);
   color: $navbar-text;
   border-bottom: $border-secondary-bg 1px solid;
 }
@@ -157,14 +171,71 @@ h6 {
 
 // Page Containers
 
+.footer {
+  color: $color-secondary;
+  line-height: 0.25rem;
+  padding-top: 1rem;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
 .footer-line {
   color: $border-bg;
   padding-bottom: 0.1rem;
 }
 
+.content-section {
+  &:not(:first-child) {
+    margin-top: 2.5rem;
+  }
+}
+
 .page-content {
-  padding: 1rem 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.content-image {
+  margin-bottom: 2rem !important;
+}
+
+.jumbotron {
+  height: 100vh;
+  // background-image: url("https://wallpaperaccess.com/full/1093941.jpg");
+  background-size: cover;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
   display: flex;
+  align-items: center;
+}
+
+.container-flex {
+  &:first-of-type {
+    background-color: $body-bg;
+  }
+}
+
+.language-list {
+  &:not(:first-child) {
+    padding-left: 1rem;
+  }
+
+  &:not(:last-child) {
+    border-right: $border-secondary-bg 1px solid;
+  }
+
+  color: $navbar-text;
+  padding-right: 1rem;
+}
+
+.social-media-icons {
+  margin-top: 1.5rem;
 }
 
 // Animations
@@ -189,7 +260,7 @@ h6 {
   }
 }
 
-// Logo Colors
+// Text Colors
 
 .text-logo-node {
   color: #90c53f;
@@ -205,4 +276,43 @@ h6 {
 
 .text-logo-java {
   color: #e32c2d;
+}
+
+.text-logo-linkedin {
+  color: #0a66c2;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #333 !important;
+}
+
+.bg-logo-instagram {
+  background-color: #e1306c !important;
+}
+
+.color-body {
+  color: $body-text;
+}
+
+.social-media-icon {
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  &:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+}
+
+.highlight {
+  font-family: "Share Tech Mono", monospace;
+  background-color: $border-secondary-bg;
+  color: $color-warning;
+  padding: 0.2rem;
 }

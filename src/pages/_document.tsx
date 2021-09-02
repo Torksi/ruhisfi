@@ -27,7 +27,7 @@ class DefaultDocument extends Document {
             content="developer, sysadmin, university student"
           />
 
-          <meta name="og:site_name" content="Ruhis" />
+          <meta name="og:site_name" content="Toni Ruhanen" />
           <meta name="og:title" content="Home" />
           <meta
             name="og:description"

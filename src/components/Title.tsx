@@ -1,13 +1,9 @@
 import Head from "next/head";
 
-interface TitleProps {
-  pageName: string;
-}
-
-const Title: React.FC<TitleProps> = ({ pageName }) => {
+const Title: React.FC = () => {
   return (
     <Head>
-      <title>Ruhis - {pageName}</title>
+      <title>Toni Ruhanen</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
   );

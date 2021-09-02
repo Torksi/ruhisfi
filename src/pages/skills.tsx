@@ -1,10 +1,11 @@
-import SkillsBadge from "../components/skills/SkillsBadge";
+import { Fade } from "react-awesome-reveal";
+import SkillsBadge from "../components/SkillsBadge";
 import Title from "../components/Title";
 
 export default function SkillsPage() {
   return (
-    <>
-      <Title pageName="Skills" />
+    <Fade direction="up">
+      <Title />
       <h1>Skills</h1>
       <div className="row">
         <SkillsBadge
@@ -56,6 +57,6 @@ export default function SkillsPage() {
           iconClass="text-warning"
         />
       </div>
-    </>
+    </Fade>
   );
 }
