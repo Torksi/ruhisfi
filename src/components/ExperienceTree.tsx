@@ -62,17 +62,6 @@ const ExperienceTree: React.FC<ExperienceTreeProps> = ({ experience }) => {
           </a>
         </p>
       )}
-      {/* showMore && experience.length > 3 && (
-        <p className="text-center">
-          <a
-            onClick={() => setShowMore(false)}
-            title="Show less"
-            className="cursor-pointer color-body"
-          >
-            <i className="far fa-chevron-up" />
-          </a>
-        </p>
-      ) */}
     </>
   );
 };

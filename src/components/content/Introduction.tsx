@@ -27,8 +27,18 @@ const Introduction = () => {
               Technology at Haaga-Helia University of Applied Sciences.
             </p>
             <p>
-              I have been programming for 10 years and have a great
-              understanding of different techniques and programming languages.
+              Programming has been my hobby for about 10 years and have a great
+              understanding of different techniques and programming languages. I
+              like backend programming more but I can also do frontend when
+              needed. For the past four years, I have participated in many
+              different CTFs and Bug Bounties, so I have pretty good
+              understanding of cyber security.
+            </p>
+            <p>
+              I have been an administrator on one of the Finland&apos;s biggest
+              gaming network with over 200 concurrent players. I have also
+              managed many different servers both on cloud platforms and on
+              dedicated machines.
             </p>
             <p>
               If you have any questions, feel free to message me on{" "}

@@ -11,7 +11,7 @@ const Skills = () => {
             <div className="row">
               <SkillsBadge
                 name="Web Design"
-                description="(HTML/CSS/JavaScript/Sass)"
+                description="(HTML/CSS/JavaScript/TypeScript)"
                 icon="fab fa-html5"
                 iconClass="text-logo-html"
               />
@@ -46,14 +46,14 @@ const Skills = () => {
                 iconClass="text-warning"
               />
               <SkillsBadge
-                name="Server Software"
-                description="(Debian/Ubuntu/Windows Server)"
+                name="Server Environment"
+                description="(Debian/Ubuntu/AWS)"
                 icon="fas fa-terminal"
                 iconClass="text-purple"
               />
               <SkillsBadge
                 name="Development Tools"
-                description="(VS Code/IntelliJ/Eclipse)"
+                description="(VS Code/Git/IntelliJ/Eclipse)"
                 icon="far fa-code"
                 iconClass="text-secondary"
               />

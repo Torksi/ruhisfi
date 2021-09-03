@@ -28,16 +28,16 @@ const SocialMedia = () => {
             <i className="fab fa-linkedin text-logo-linkedin" />
           </a>
         </Link>
-        <Link href="https://www.instagram.com/ruhanentoni/">
-          <a
-            data-tip="@ruhanentoni"
-            target="_blank"
-            rel="noreferrer"
-            className="social-media-icon bg-logo-instagram"
-          >
-            <i className="fab fa-instagram text-white" />
-          </a>
-        </Link>
+        {/* }<Link href="https://www.instagram.com/ruhanentoni/">
+              <a
+                data-tip="@ruhanentoni"
+                target="_blank"
+                rel="noreferrer"
+                className="social-media-icon bg-logo-instagram"
+              >
+                <i className="fab fa-instagram text-white" />
+              </a>
+        </Link>{ */}
         <Link href="mailto:toni@ruhis.fi">
           <a
             data-tip="toni@ruhis.fi"
