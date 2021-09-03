@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 /* eslint-disable @next/next/no-document-import-in-page */
 import Document, {
   DocumentContext,
@@ -6,8 +7,6 @@ import Document, {
   Main,
   NextScript,
 } from "next/document";
-// eslint-disable-next-line @next/next/no-script-in-document
-import Script from "next/script";
 
 class DefaultDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -43,14 +42,20 @@ class DefaultDocument extends Document {
             rel="stylesheet"
           />
 
-          <Script
-            strategy="lazyOnload"
+          <script
+            async
             src="https://www.googletagmanager.com/gtag/js?id=G-N09G3K6PHV"
           />
-          <Script
-            id="ga-function"
-            strategy="lazyOnload"
-          >{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-N09G3K6PHV');`}</Script>
+          <script
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-N09G3K6PHV');`,
+            }}
+          />
         </Head>
         <body>
           <Main />
