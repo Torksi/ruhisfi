@@ -49,7 +49,7 @@ const SocialMedia = () => {
         </Link>
         <a
           data-tip="Torksi#8081"
-          target="_blank"
+          href="#"
           className="social-media-icon bg-logo-discord"
         >
           <i className="fab fa-discord text-white" />
