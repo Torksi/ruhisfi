@@ -20,7 +20,7 @@ const SocialMedia = () => {
         </Link>
         <Link href="https://www.linkedin.com/in/toniruhanen?trk=profile-badge">
           <a
-            title="LinkedIn"
+            data-tip="LinkedIn"
             target="_blank"
             rel="noreferrer"
             className="social-media-icon"
