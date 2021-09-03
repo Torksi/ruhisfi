@@ -10,8 +10,9 @@ const Jumbotron = () => {
 
   const [carouselPhrases] = useState([
     "Developer",
-    "Sysadmin",
     "University Student",
+    "Sysadmin",
+    "Photographer",
   ]);
   const [currentPhrase, setCurrentPhrase] = useState(0);
 
