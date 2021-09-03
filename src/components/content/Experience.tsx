@@ -12,7 +12,7 @@ const Experience = () => {
               experience={[
                 {
                   name: "Gigantti Oy",
-                  description: "Operations Staff",
+                  description: "Customer Support Technician",
                   length: "Aug'21 - Present",
                   location: "Vantaa, Finland",
                   yearsOnly: false,
@@ -26,7 +26,7 @@ const Experience = () => {
                 },
                 {
                   name: "Gigantti Oy",
-                  description: "Operations Staff",
+                  description: "Customer Support Technician",
                   length: "May'20 - Jul'20",
                   location: "Mikkeli, Finland",
                   yearsOnly: false,
@@ -40,7 +40,7 @@ const Experience = () => {
                 },
                 {
                   name: "Gigantti Oy",
-                  description: "Operations Staff",
+                  description: "Customer Support Technician",
                   length: "Aug'19 - Jan'20",
                   location: "Mikkeli, Finland",
                   yearsOnly: false,
