@@ -52,10 +52,10 @@ const Skills = () => {
                 iconClass="text-purple"
               />
               <SkillsBadge
-                name="Server Software"
-                description="(Debian/Ubuntu/Windows Server)"
-                icon="fas fa-server"
-                iconClass="text-warning"
+                name="Development Tools"
+                description="(VS Code/IntelliJ/Eclipse)"
+                icon="far fa-code"
+                iconClass="text-secondary"
               />
             </div>
           </Fade>

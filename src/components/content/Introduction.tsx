@@ -22,11 +22,18 @@ const Introduction = () => {
             <h2>About Me</h2>
             <p>
               Hey there! I&apos;m{" "}
-              <span className="text-white">Toni Ruhanen</span>, a Finnish
-              programmer and a student at Haaga-Helia University of Applied
-              Sciences studying Business Information Technology.
+              <span className="text-white">Toni Ruhanen</span>, a Finnish full
+              stack developer. I am currently studying Business Information
+              Technology at Haaga-Helia University of Applied Sciences.
             </p>
-            <p />
+            <p>
+              I have been programming for 10 years and have a great
+              understanding of different techniques and programming languages.
+            </p>
+            <p>
+              If you have any questions, feel free to message me on{" "}
+              <a href="mailto:toni@ruhis.fi">toni@ruhis.fi</a>.
+            </p>
           </div>
         </div>
       </div>

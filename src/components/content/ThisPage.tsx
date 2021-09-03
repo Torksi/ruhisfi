@@ -5,7 +5,7 @@ const ThisPage = () => {
         <div className="col-md-16">
           <h2>About This Page</h2>
           <p>
-            This website is built using{" "}
+            This website is built using TypeScript and{" "}
             <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
               Next.js
             </a>{" "}
@@ -20,8 +20,8 @@ const ThisPage = () => {
             . The code is deployed on{" "}
             <a href="https://vercel.com/" target="_blank" rel="noreferrer">
               Vercel
-            </a>{" "}
-            through GitHub automatically.
+            </a>
+            .
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ReactTooltip from "react-tooltip";
 import { Fade } from "react-awesome-reveal";
 // import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
@@ -9,6 +10,7 @@ const SocialMedia = () => {
         <Link href="https://github.com/Torksi">
           <a
             title="GitHub"
+            data-tip="Torksi"
             target="_blank"
             rel="noreferrer"
             className="social-media-icon bg-black"
@@ -28,7 +30,7 @@ const SocialMedia = () => {
         </Link>
         <Link href="https://www.instagram.com/ruhanentoni/">
           <a
-            title="Instagram"
+            data-tip="@ruhanentoni"
             target="_blank"
             rel="noreferrer"
             className="social-media-icon bg-logo-instagram"
@@ -36,15 +38,23 @@ const SocialMedia = () => {
             <i className="fab fa-instagram text-white" />
           </a>
         </Link>
-        {/* }<OverlayTrigger
-          key="discord-tooltip"
-          placement="bottom"
-          overlay={<Tooltip id="discord-tooltip">Torksi#8081</Tooltip>}
-        >
-          <a target="_blank" className="social-media-icon bg-logo-discord">
-            <i className="fab fa-discord text-white" />
+        <Link href="mailto:toni@ruhis.fi">
+          <a
+            data-tip="toni@ruhis.fi"
+            target="_blank"
+            className="social-media-icon bg-secondary"
+          >
+            <i className="far fa-envelope text-white" />
           </a>
-        </OverlayTrigger>{ */}
+        </Link>
+        <a
+          data-tip="Torksi#8081"
+          target="_blank"
+          className="social-media-icon bg-logo-discord"
+        >
+          <i className="fab fa-discord text-white" />
+        </a>
+        <ReactTooltip />
       </p>
     </Fade>
   );
