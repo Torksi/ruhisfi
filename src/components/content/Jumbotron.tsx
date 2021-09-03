@@ -35,18 +35,18 @@ const Jumbotron = () => {
 
   return (
     <div className="jumbotron vertical-center">
-      <div id="scroll-down-indicator">
-        <i
-          className="far fa-chevron-down"
-          onClick={() => {
-            scroller.scrollTo("introduction", {
-              duration: 250,
-              delay: 100,
-              smooth: true,
-              offset: -25,
-            });
-          }}
-        />
+      <div
+        id="scroll-down-indicator"
+        onClick={() => {
+          scroller.scrollTo("introduction", {
+            duration: 250,
+            delay: 100,
+            smooth: true,
+            offset: -25,
+          });
+        }}
+      >
+        <i className="far fa-chevron-down" />
       </div>
       <div className="container">
         <h1 className="text-center text-lg">Toni Ruhanen</h1>
