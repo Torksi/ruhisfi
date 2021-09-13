@@ -23,7 +23,7 @@ class DefaultDocument extends Document {
           <meta charSet="utf-8" />
           <meta
             name="keywords"
-            content="ruhis, toni, finland, ruhanen, toni ruhanen, java, javascript, typescript, nodejs, developer, sysadmin, university student, technology, business"
+            content="ruhis, toni, finland, ruhanen, toni ruhanen, programming, programmer, developer, sysadmin, university student, technology, business, java, javascript, react"
           />
           <meta
             name="description"
