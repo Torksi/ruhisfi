@@ -27,8 +27,8 @@ class DefaultDocument extends Document {
           />
           <meta
             name="description"
-            content="Toni Ruhanen is a Finnish full
-              stack developer and a student at Haaga-Helia University of Applied Sciences"
+            content="I'm a Finnish full
+              stack developer and a student at Haaga-Helia University of Applied Sciences, welcome to my portfolio!"
           />
           <meta name="author" content="Toni Ruhanen" />
           <meta
@@ -40,7 +40,8 @@ class DefaultDocument extends Document {
           <meta name="og:title" content="Ruhis" />
           <meta
             name="og:description"
-            content="developer, sysadmin, university student"
+            content="I'm a Finnish full
+              stack developer and a student at Haaga-Helia University of Applied Sciences, welcome to my portfolio!"
           />
           <meta name="og:type" content="website" />
           <meta name="og:url" content="https://ruhis.fi" />
