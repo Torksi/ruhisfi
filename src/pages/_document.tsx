@@ -22,12 +22,22 @@ class DefaultDocument extends Document {
 
           <meta charSet="utf-8" />
           <meta
+            name="keywords"
+            content="Ruhis, Ruhanen, Toni Ruhanen, java, javascript, typescript, nodejs, developer, sysadmin, university student"
+          />
+          <meta
             name="description"
-            content="developer, sysadmin, university student"
+            content="Toni Ruhanen is a Finnish full
+              stack developer and a student at Haaga-Helia University of Applied Sciences"
+          />
+          <meta name="author" content="Toni Ruhanen" />
+          <meta
+            name="robots"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
           />
 
           <meta name="og:site_name" content="Toni Ruhanen" />
-          <meta name="og:title" content="Home" />
+          <meta name="og:title" content="Ruhis" />
           <meta
             name="og:description"
             content="developer, sysadmin, university student"
