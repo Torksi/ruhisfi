@@ -2,6 +2,7 @@
 $body-bg: #1c2128;
 $body-secondary-bg: #22272e;
 $body-text: #adbac7;
+$body-formal: #333333;
 $border-bg: #444c56;
 $border-secondary-bg: #373e47;
 $navbar-bg: #2d333b;
@@ -35,6 +36,7 @@ $theme-colors: (
 );
 
 body {
+  -webkit-print-color-adjust: exact !important;
   font-family: $font-family;
   background-color: $body-secondary-bg;
   color: $body-text;
@@ -110,6 +112,27 @@ a {
     color: $color-link;
     text-decoration: underline;
   }
+}
+
+.cv {
+  &.formal {
+    font-family: "Poppins", sans-serif;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  aside {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $body-bg;
+  }
+  .cv-profile {
+    border-radius: 999999999pt;
+  }
+
+  background-color: $body-secondary-bg;
 }
 
 // Skills Badge

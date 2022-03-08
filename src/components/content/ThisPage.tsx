@@ -9,7 +9,7 @@ const ThisPage = () => {
             <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
               Next.js
             </a>{" "}
-            and styled with a bit of{" "}
+            framework and styled with a bit of{" "}
             <a
               href="https://getbootstrap.com/"
               target="_blank"

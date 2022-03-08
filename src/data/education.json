@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Haaga-Helia University of Applied Sciences",
+    "nameFi": "Haaga-Helia AMK",
+    "description": "Bachelor of Business Administration, Business IT Technology",
+    "descriptionFi": "Tietojenkäsittelyn tradenomi (AMK)",
+    "length": "2021 - Present",
+    "lengthFi": "2021 - Nyt",
+    "yearsOnly": true,
+    "showInCv": true
+  },
+  {
+    "name": "Esedu Vocational College",
+    "nameFi": "Esedu",
+    "description": "Vocational Qualification in Business Information Technology",
+    "descriptionFi": "Tieto- ja viestintätekniikan perustutkinto, datanomi",
+    "length": "2019 - 2021",
+    "lengthFi": "2019 - 2021",
+    "yearsOnly": true,
+    "showInCv": true
+  }
+]

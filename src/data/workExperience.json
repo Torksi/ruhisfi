@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Gigantti Oy",
+    "description": "Customer Support Technician",
+    "descriptionFi": "Työtehtäviini kuuluu huoltojen ja palautusten käsittelyä, noutotiskillä toimimista, laitteiden asennusta ja käytön avustusta. Vastasin myös myymälän tietokoneiden, verkon ja kassojen toimivuudesta sekä huolto- ja ylläpitotoimista ja toimin myymälän työntekijöiden IT-tukena.",
+    "length": "Aug'21 - Present",
+    "lengthFi": "Elo'21 - Nyt",
+    "location": "Vantaa, Finland",
+    "yearsOnly": false,
+    "showInCv": true
+  },
+  {
+    "name": "Ruhis",
+    "description": "Entrepreneur",
+    "descriptionFi": "Minulla on oma yritys, jonka kautta olen tehnyt satunnaisesti yrityksille pieniä ohjelmistoprojekteja.",
+    "length": "Dec'18 - Present",
+    "lengthFi": "Joulu'18 - Nyt",
+    "location": "Finland",
+    "yearsOnly": false,
+    "showInCv": true
+  },
+  {
+    "name": "Observis Oy",
+    "description": "Developer Internship",
+    "descriptionFi": "Osallistuin laiteintegraatioprojektin toteuttamiseen Javalla.",
+    "length": "Aug'20 - Dec'20",
+    "lengthFi": "Elo'20 - Joulu'20",
+    "location": "Mikkeli, Finland",
+    "yearsOnly": false,
+    "showInCv": true
+  },
+  {
+    "name": "Gigantti Oy",
+    "description": "Customer Support Technician",
+    "descriptionFi": "Hoidin asiakaspalvelua, laitteiden huoltoa, tuotepalautusten käsittelyä, hyllytystä ja saapuvien tavaroiden purkua.",
+    "length": "May'20 - Jul'20",
+    "lengthFi": "Touko'20 - Heinä'20",
+    "location": "Mikkeli, Finland",
+    "yearsOnly": false,
+    "showInCv": false
+  },
+  {
+    "name": "Observis Oy",
+    "description": "Developer Internship",
+    "descriptionFi": "Osallistuin tilannekuvajärjestelmän toteuttamiseen käyttäen Java ja JavaScript -kieliä, sekä sen testaukseen.",
+    "length": "Feb'20 - May'20",
+    "lengthFi": "Helmi'20 - Touko'20",
+    "location": "Mikkeli, Finland",
+    "yearsOnly": false,
+    "showInCv": true
+  },
+  {
+    "name": "Gigantti Oy",
+    "description": "Customer Support Technician",
+    "descriptionFi": "Hoidin asiakaspalvelua, laitteiden huoltoa, tuotepalautusten käsittelyä, hyllytystä ja saapuvien tavaroiden purkua.",
+    "length": "Aug'19 - Jan'20",
+    "lengthFi": "Elo'19 - Tammi'20",
+    "location": "Mikkeli, Finland",
+    "yearsOnly": false,
+    "showInCv": false
+  }
+]

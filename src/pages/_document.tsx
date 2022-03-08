@@ -50,6 +50,10 @@ class DefaultDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+          />
 
           <script
             async
