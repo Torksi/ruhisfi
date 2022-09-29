@@ -1,0 +1,38 @@
+.heading-hero {
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-stretch: condensed;
+  margin-bottom: 1.5rem;
+}
+
+.heading-pre {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text-highlight);
+}
+
+.jumbotron {
+  margin-top: 4rem;
+}
+
+main p {
+  font-size: 1.125rem;
+}
+
+.skill-badges {
+  overflow-x: auto;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
+  .skill-badge {
+    font-size: 1.05rem;
+    padding: 0.25rem;
+    display: inline;
+    margin-right: 1rem;
+  }
+  .skill-icon {
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+  }
+}

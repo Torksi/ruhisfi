@@ -1,0 +1,64 @@
+.codebox {
+  border: 2px solid var(--border-color);
+  background-color: #0f172a;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 14px;
+  margin-bottom: 1rem;
+
+  .filename {
+    text-align: center;
+    color: #64748b;
+    border-bottom: var(--border-color) 1px solid;
+    margin-bottom: 0.5rem;
+  }
+
+  code {
+    font-size: 13px;
+    font-family: "Hack", "Courier New", Courier, monospace;
+  }
+
+  .token {
+    &.gra {
+      color: #7f848e;
+    }
+    &.gol {
+      color: #d18c49;
+    }
+    &.red {
+      color: #d46c69;
+    }
+    &.gre {
+      color: #98c379;
+    }
+    &.whi {
+      color: #abb2bf;
+    }
+    &.blu {
+      color: #57afe3;
+    }
+    &.yel {
+      color: #e5c07b;
+    }
+    &.mag {
+      color: #c65d8e;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .codebox {
+    margin-top: 3.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .codebox {
+    margin-right: -2rem;
+    overflow-x: hidden;
+  }
+
+  .codebox-wrapper {
+    overflow-x: hidden;
+  }
+}
