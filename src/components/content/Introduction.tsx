@@ -1,53 +1,71 @@
-import { Fade } from "react-awesome-reveal";
-import Scroll from "react-scroll";
+import dayjs from "dayjs";
 import Image from "next/image";
-import kiiminkiPicture from "../../images/kiiminki.png";
 
 const Introduction = () => {
   return (
-    <Scroll.Element name="introduction">
-      <div className="content-section" id="introduction">
-        <div className="row">
-          <div className="col-md-5">
-            <Fade triggerOnce direction="left" duration={1200}>
-              <Image
-                draggable={false}
-                alt="Kiiminginjoki, Finland"
-                src={kiiminkiPicture}
-                className="content-image"
-              />
-            </Fade>
-          </div>
-          <div className="col-md-7">
-            <h2>About Me</h2>
-            <p>
-              Hey there! I&apos;m{" "}
-              <span className="text-white">Toni Ruhanen</span>, a Finnish full
-              stack developer. I am currently studying Business Information
-              Technology at Haaga-Helia University of Applied Sciences.
-            </p>
-            <p>
-              Programming has been my hobby for about 10 years and have a great
-              understanding of different techniques and programming languages. I
-              like backend programming more but I can also do frontend when
-              needed. For the past four years, I have participated in many
-              different CTFs and Bug Bounties, so I have pretty good
-              understanding of cyber security.
-            </p>
-            <p>
-              I have been an administrator on one of the Finland&apos;s biggest
-              gaming network with over 200 concurrent players. I have also
-              managed many different servers both on cloud platforms and on
-              dedicated machines.
-            </p>
-            <p>
-              If you have any questions, feel free to message me on{" "}
-              <a href="mailto:toni@ruhis.fi">toni@ruhis.fi</a>.
-            </p>
+    <section id="about" className="container" style={{ marginTop: "5rem" }}>
+      <div className="row">
+        <div className="col-md-6">
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+            className="mb-2"
+          >
+            <Image
+              src="https://github.com/Torksi.png"
+              height={"325px"}
+              width={"325px"}
+              className="mx-auto rounded-circle"
+              loading="eager"
+            />
           </div>
         </div>
+        <div className="col-md-6">
+          <div className="row pb-4">
+            <div className="col-md-3">
+              <span className="stat-number">
+                {dayjs().diff("2003-11-24", "year")}
+              </span>
+              <span className="stat-description">Years Old</span>
+            </div>
+            <div className="col-md-3">
+              <span className="stat-number">1100+</span>
+              <span className="stat-description">Commits</span>
+            </div>
+            <div className="col-md-3">
+              <span className="stat-number">
+                {dayjs().diff("2011-01-01", "year")}+
+              </span>
+              <span className="stat-description">Years of Coding</span>
+            </div>
+            <div className="col-md-3">
+              <span className="stat-number">40+</span>
+              <span className="stat-description">Vulns. reported</span>
+            </div>
+          </div>
+          <p>
+            I&apos;m a Fullstack developer and a cybersecurity enthusiast from
+            Helsinki, Finland. My focus area has always been backend development
+            with <strong>TypeScript</strong> and <strong>Java</strong> because I
+            enjoy creating the complex logic behind applications.
+          </p>
+          <p>
+            I've been interested in computers since I was a kid and have gained
+            vast experience in many different topics. Usually, I did one of the
+            following things: Played videogames or modded them, tinkered with
+            computer hardware, learned new programming languages, worked on my
+            homelab and self-hosted servers or tried to find exploits from bug
+            bounties.
+          </p>
+          <p>
+            I also have the cutest dog in the world, and I love spending time
+            with her. I also enjoy going hiking and camping in the summer.
+          </p>
+        </div>
       </div>
-    </Scroll.Element>
+    </section>
   );
 };
 

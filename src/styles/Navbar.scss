@@ -1,0 +1,30 @@
+#navbar {
+  background-color: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.1rem 0.5rem;
+}
+
+.nav-link-icon {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.navbar-brand {
+  color: var(--color-text-header);
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar-nav {
+  flex-direction: row;
+
+  .nav-link {
+    color: #cbd5e1;
+    &:hover {
+      color: var(--color-text-header) !important;
+    }
+  }
+}

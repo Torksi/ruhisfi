@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 /* eslint-disable @next/next/next-script-for-ga */
 /* eslint-disable @next/next/no-document-import-in-page */
 import Document, {
@@ -46,13 +47,20 @@ class DefaultDocument extends Document {
 
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           />
+
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css"
             rel="stylesheet"
+          />
+
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
           />
 
           <script
