@@ -37,9 +37,6 @@ cache/
 
 .next
 
-package-lock.json
-yarn.lock
-
 .env*
 build-manifest.json
 /src/server/

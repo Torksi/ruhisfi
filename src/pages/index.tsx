@@ -1,26 +1,21 @@
-import Title from "../components/Title";
-
-import Introduction from "../components/content/Introduction";
-import Languages from "../components/content/Languages";
-import Jumbotron from "../components/content/Jumbotron";
-import Experience from "../components/content/Experience";
+import About from "../components/content/About";
+import Contact from "../components/content/Contact";
+import Navbar from "../components/content/Navbar";
+import Projects from "../components/content/Projects";
 import Skills from "../components/content/Skills";
-import ThisPage from "../components/content/ThisPage";
+import Testimonials from "../components/content/Testimonials";
+import Title from "../components/Title";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Title />
-      <div className="container-flex">
-        <Jumbotron />
-      </div>
-      <div className="container pt-2">
-        <Introduction />
-        <Experience />
-        <Skills />
-        <Languages />
-        <ThisPage />
-      </div>
-    </>
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
