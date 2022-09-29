@@ -9,7 +9,7 @@ const projects: Project[] = [
     date: "09/2022",
     shortDescription: "My personal website and portfolio website.",
     longDescription:
-      "I made my first website in 2011 and this is probably the hundreth time of me remaking it. This time I'm using Next.js and TypeScript to make it more performant and easier to maintain. The code is automatically deployed through GitHub Actions to Vercel.",
+      "I made my first website in 2011 and this is probably the hundredth time of me remaking it. This time I'm using Next.js and TypeScript to make it more performant and easier to maintain. The code is automatically deployed through GitHub Actions to Vercel.",
     frameworks: ["Next.js", "Vercel"],
     languages: ["TypeScript", "Sass"],
     imageUrl: "/images/projects/ruhis.webp",
