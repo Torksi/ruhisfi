@@ -56,7 +56,7 @@ export default function ProjectPage() {
         </Link>
         <div className="row">
           <h1 className="section-header">Project: {project.name}</h1>
-          <div className="col-md-6">
+          <div className="col-md-6 mb-4">
             <Markdown>
               {project.longDescription || project.shortDescription}
             </Markdown>
