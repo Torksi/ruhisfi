@@ -15,8 +15,8 @@ const Introduction = () => {
           >
             <Image
               src="https://github.com/Torksi.png"
-              height={"325px"}
-              width={"325px"}
+              height="325px"
+              width="325px"
               alt="Toni Ruhanen"
               className="mx-auto rounded-circle no-select"
               loading="eager"
