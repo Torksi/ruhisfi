@@ -9,13 +9,15 @@ const Navbar = () => {
         </Link>
 
         <ul className="navbar-nav ml-auto">
-          <a
-            style={{ paddingTop: "0.9rem", marginRight: "1rem" }}
-            className="nav-link"
-            href="/projects"
-          >
-            Portfolio
-          </a>
+          <Link href="/projects">
+            <a
+              style={{ paddingTop: "0.9rem", marginRight: "1rem" }}
+              className="nav-link"
+            >
+              Portfolio
+            </a>
+          </Link>
+
           <a
             className="nav-link"
             title="LinkedIn"

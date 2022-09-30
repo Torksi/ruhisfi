@@ -9,12 +9,12 @@ export default function ProjectPage() {
   const router = useRouter();
   const { id } = router.query;
 
-  const project = projects.find((project) => project.id === id);
+  const project = projects.find((pr) => pr.id === id);
 
   if (!project) {
     return (
       <>
-        <Title title={`Project not found`} />
+        <Title title="Project not found" />
         <div className="container-flex">
           <div className="jumbotron vertical-center">
             <div className="container">
@@ -106,6 +106,7 @@ export default function ProjectPage() {
                 href={project.sourceUrl}
                 target="_blank"
                 className="project-button mt-2"
+                rel="noreferrer"
               >
                 <i className="ri-git-repository-line project-icon" />
                 <span style={{ verticalAlign: "center" }}>Source Code</span>
@@ -116,6 +117,7 @@ export default function ProjectPage() {
                 href={project.demoUrl}
                 target="_blank"
                 className="project-button mt-2"
+                rel="noreferrer"
               >
                 <i className="ri-arrow-right-up-line project-icon" />
                 <span style={{ verticalAlign: "center" }}>Live Demo</span>

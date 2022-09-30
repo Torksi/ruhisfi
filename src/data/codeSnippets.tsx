@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import dayjs from "dayjs";
 
 const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
-  const codeSnippets = [
+  const codes = [
     <div key="neofetch-code">
       <span className="token whi">PS C:\&gt; </span>
       <span className="token yel">Get-ADUser </span>
@@ -88,7 +90,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token gre">{`"${dayjs().format("dddd")}"`}</span>;<br />
       {"}"}
     </div>,
-    <div className="token whi">
+    <div key="vim-exit-code" className="token whi">
       :QUIT
       <br />
       <span className="token red">E492: Not an editor command: QUIT</span>
@@ -110,10 +112,9 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
   ];
 
   if (idx !== undefined) {
-    return codeSnippets[idx];
-  } else {
-    return codeSnippets[Math.floor(Math.random() * codeSnippets.length)];
+    return codes[idx];
   }
+  return codes[Math.floor(Math.random() * codes.length)];
 };
 
 export default codeSnippets;
