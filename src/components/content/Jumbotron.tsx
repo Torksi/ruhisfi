@@ -57,6 +57,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>
@@ -65,6 +68,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>
@@ -73,6 +79,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>

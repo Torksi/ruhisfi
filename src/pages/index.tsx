@@ -5,7 +5,7 @@ import Projects from "../components/content/Projects";
 import Title from "../components/Title";
 import Contact from "../components/content/Contact";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Title title="Home" />
@@ -20,4 +20,6 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
+
+export default Home;
