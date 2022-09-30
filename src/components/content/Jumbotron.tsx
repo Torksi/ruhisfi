@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import randomCodeSnippet from "../../data/codeSnippets";
+import codeSnippets from "../../data/codeSnippets";
 import skills from "../../data/skills";
 
 const Jumbotron = () => {
   const [randomCode, setRandomCode] = useState(<span>Loading...</span>);
 
   useEffect(() => {
-    setRandomCode(randomCodeSnippet());
+    setRandomCode(codeSnippets({ idx: 0 }));
   }, []);
 
   return (
@@ -51,7 +51,33 @@ const Jumbotron = () => {
           </div>
           <div className="col-md-5 codebox-wrapper">
             <div className="codebox">
-              <p className="filename no-select">Terminal</p>
+              <p className="codebox-title filename no-select">
+                <span
+                  className="wc-button wc-red"
+                  onClick={() =>
+                    setRandomCode(codeSnippets({ idx: undefined }))
+                  }
+                >
+                  &nbsp;
+                </span>
+                <span
+                  className="wc-button wc-yellow"
+                  onClick={() =>
+                    setRandomCode(codeSnippets({ idx: undefined }))
+                  }
+                >
+                  &nbsp;
+                </span>
+                <span
+                  className="wc-button wc-green"
+                  onClick={() =>
+                    setRandomCode(codeSnippets({ idx: undefined }))
+                  }
+                >
+                  &nbsp;
+                </span>
+                <span className="filename">Terminal</span>
+              </p>
               <code>{randomCode}</code>
             </div>
           </div>

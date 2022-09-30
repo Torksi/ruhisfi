@@ -43,3 +43,6 @@ build-manifest.json
 
 temp/
 tmp/
+
+public/sitemap.xml
+public/sitemap-0.xml
