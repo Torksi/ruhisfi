@@ -5,23 +5,28 @@ import { Project } from "../../types/Project";
 
 const Projects = () => {
   return (
-    <section id="experience" className="container">
+    <section id="projects" className="container">
       <span className="section-subheader">Projects</span>
       <h2 className="section-header">Things I've done</h2>
       <div className="row">
         {projects
           .filter((p) => p.spotlight)
           .map((project: Project) => (
-            <div key={`project-${project.id}`} className="col-md-4">
+            <div key={`project-${project.id}`} className="col-md-4 mb-3">
               <div className="project-card">
-                <Image
-                  src={project.imageUrl}
-                  alt={project.name}
-                  width={275}
-                  height={149}
-                  className="project-image"
-                  loading="lazy"
-                />
+                <Link href={`/projects/${project.id}`}>
+                  <a>
+                    <Image
+                      src={project.imageUrl}
+                      alt={project.name}
+                      width={275}
+                      height={149}
+                      className="project-image pointer no-select"
+                      loading="lazy"
+                    />
+                  </a>
+                </Link>
+
                 <p className="project-name">{project.name}</p>
                 <p>{project.shortDescription}</p>
                 <p title="Languages used">

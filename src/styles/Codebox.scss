@@ -8,9 +8,13 @@
 
   .filename {
     text-align: center;
+  }
+
+  .codebox-title {
     color: #64748b;
     border-bottom: var(--border-color) 1px solid;
     margin-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
   }
 
   code {
@@ -41,7 +45,7 @@
       color: #e5c07b;
     }
     &.mag {
-      color: #c65d8e;
+      color: #bb78d2;
     }
   }
 }
@@ -61,4 +65,33 @@
   .codebox-wrapper {
     overflow-x: hidden;
   }
+}
+
+.wc-button {
+  text-align: center;
+  background-color: #64748b;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  padding: 0 0.35rem;
+  margin-top: 0.21rem;
+  color: var(--color-text-header);
+  float: left;
+  display: block;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.wc-red:hover {
+  background-color: #d46c69;
+}
+
+.wc-yellow:hover {
+  background-color: #e5c07b;
+}
+
+.wc-green:hover {
+  background-color: #98c379;
 }

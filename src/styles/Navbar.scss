@@ -10,6 +10,12 @@
   padding-left: 0.5rem;
 }
 
+.nav-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .navbar-brand {
   color: var(--color-text-header);
   font-weight: 600;

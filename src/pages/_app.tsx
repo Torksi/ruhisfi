@@ -4,13 +4,15 @@ import "../styles/App.scss";
 import type { AppProps } from "next/app";
 import Footer from "../components/content/Footer";
 import Navbar from "../components/content/Navbar";
-import Title from "../components/Title";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <div className="page-content">
-        <Title />
         <Navbar />
         <Component {...pageProps} />
         <Footer />
