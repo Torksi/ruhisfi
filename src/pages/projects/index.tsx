@@ -15,13 +15,18 @@ export default function ProjectPage() {
             {projects.map((project: Project) => (
               <div key={`project-${project.id}`} className="col-md-4 mb-3">
                 <div className="project-card">
-                  <Image
-                    src={project.imageUrl}
-                    alt={project.name}
-                    width={275}
-                    height={149}
-                    className="project-image"
-                  />
+                  <Link href={`/projects/${project.id}`}>
+                    <a>
+                      <Image
+                        src={project.imageUrl}
+                        alt={project.name}
+                        width={275}
+                        height={149}
+                        className="project-image pointer no-select"
+                        loading="lazy"
+                      />
+                    </a>
+                  </Link>
                   <p className="project-name">{project.name}</p>
                   <p>{project.shortDescription}</p>
                   <p title="Languages used">

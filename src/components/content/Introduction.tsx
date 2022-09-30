@@ -18,13 +18,13 @@ const Introduction = () => {
               height={"325px"}
               width={"325px"}
               alt="Toni Ruhanen"
-              className="mx-auto rounded-circle"
+              className="mx-auto rounded-circle no-select"
               loading="eager"
             />
           </div>
         </div>
         <div className="col-md-6">
-          <div className="row pb-4">
+          <div className="row pb-4 no-select">
             <div className="col-md-3">
               <span className="stat-number">
                 {dayjs().diff("2003-11-24", "year")}
