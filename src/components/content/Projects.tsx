@@ -12,7 +12,7 @@ const Projects = () => {
         {projects
           .filter((p) => p.spotlight)
           .map((project: Project) => (
-            <div key={`project-${project.id}`} className="col-md-4">
+            <div key={`project-${project.id}`} className="col-md-4 mb-3">
               <div className="project-card">
                 <Image
                   src={project.imageUrl}

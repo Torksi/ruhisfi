@@ -57,11 +57,9 @@ export default function ProjectPage() {
         <div className="row">
           <h1 className="section-header">Project: {project.name}</h1>
           <div className="col-md-6">
-            <p>
-              <Markdown>
-                {project.longDescription || project.shortDescription}
-              </Markdown>
-            </p>
+            <Markdown>
+              {project.longDescription || project.shortDescription}
+            </Markdown>
             <p title="Languages used">
               <i className="ri-code-s-slash-fill project-icon" />
               <span className="project-tags-list">
