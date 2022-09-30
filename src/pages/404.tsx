@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Title from "../components/Title";
 
 export default function NotFound() {
   return (
     <>
+      <Title title="Page not found" />
       <div className="container-flex">
         <div className="jumbotron vertical-center">
           <div className="container">

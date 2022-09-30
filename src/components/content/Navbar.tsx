@@ -18,6 +18,7 @@ const Navbar = () => {
           </a>
           <a
             className="nav-link"
+            title="LinkedIn"
             href="https://www.linkedin.com/in/toniruhanen/"
             target="_blank"
             rel="noreferrer"
@@ -26,6 +27,7 @@ const Navbar = () => {
           </a>
           <a
             className="nav-link"
+            title="GitHub"
             href="https://github.com/Torksi"
             target="_blank"
             rel="noreferrer"

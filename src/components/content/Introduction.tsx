@@ -17,6 +17,7 @@ const Introduction = () => {
               src="https://github.com/Torksi.png"
               height={"325px"}
               width={"325px"}
+              alt="Toni Ruhanen"
               className="mx-auto rounded-circle"
               loading="eager"
             />

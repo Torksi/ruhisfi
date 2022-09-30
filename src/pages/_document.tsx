@@ -24,11 +24,11 @@ class DefaultDocument extends Document {
           <meta charSet="utf-8" />
           <meta
             name="keywords"
-            content="ruhis, toni, finland, ruhanen, toni ruhanen, programming, programmer, developer, sysadmin, university student, technology, business, java, javascript, react"
+            content="ruhis, toni, ruhanen, toni ruhanen, programming, programmer, developer, sysadmin, fullstack, full stack, typescript, nextjs, java, javascript, react"
           />
           <meta
             name="description"
-            content="Hey there! I'm Toni Ruhanen, and I'm a Finnish developer and a university student. This website was made to showcase all of what I can do."
+            content="Hey there! I'm Toni Ruhanen, and I'm a Finnish fullstack developer. This website was made to showcase all of what I can do."
           />
           <meta name="author" content="Toni Ruhanen" />
           <meta
@@ -40,7 +40,7 @@ class DefaultDocument extends Document {
           <meta name="og:title" content="Ruhis" />
           <meta
             name="og:description"
-            content="Hey there! I'm Toni Ruhanen, and I'm a Finnish developer and a university student. This website was made to showcase all of what I can do."
+            content="Hey there! I'm Toni Ruhanen, and I'm a Finnish fullstack developer. This website was made to showcase all of what I can do."
           />
           <meta name="og:type" content="website" />
           <meta name="og:url" content="https://ruhis.fi" />

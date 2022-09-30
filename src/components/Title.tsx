@@ -1,10 +1,20 @@
 import Head from "next/head";
 
-const Title: React.FC = () => {
+interface TitleProps {
+  title?: string;
+}
+
+const Title: React.FC<TitleProps> = ({ title }) => {
+  if (title && title.length > 0) {
+    return (
+      <Head>
+        <title>{`${title.trim()} | Toni Ruhanen`}</title>
+      </Head>
+    );
+  }
   return (
     <Head>
       <title>Toni Ruhanen</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
   );
 };
