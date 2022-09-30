@@ -5,8 +5,8 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
     <div key="neofetch-code">
       <span className="token whi">PS C:\&gt; </span>
       <span className="token yel">Get-ADUser </span>
-      <span className="token gra">-Identity </span>
-      <span className="token whi">toni.ruhanen</span>
+      <span className="token gra">-Filter </span>
+      <span className="token blu">'Name -like "Toni Ruhanen"'</span>
       <br />
       <br />
       <br />
@@ -30,12 +30,20 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       </span>
       <br />
       <span className="token whi">
-        Location &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        Finland\Helsinki
+        City
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+        Helsinki
       </span>
       <br />
       <span className="token whi">
-        ObjectClass &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: user
+        Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+        Finland
+      </span>
+      <br />
+      <span className="token whi">
+        Title
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+        Fullstack Developer
       </span>
       <br />
       <span className="token whi">
@@ -45,8 +53,10 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <br />
       <span className="token whi">
         Email
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        toni@ruhis.fi
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+        <a className="token whi" href="mailto:toni@ruhis.fi">
+          toni@ruhis.fi
+        </a>
       </span>
     </div>,
     <div key="ts2339-code" className="token red">
@@ -79,13 +89,23 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       {"}"}
     </div>,
     <div className="token whi">
-      $ git merge cool_feature
+      :QUIT
       <br />
-      Auto-merging index.ts
+      <span className="token red">E492: Not an editor command: QUIT</span>
       <br />
-      CONFLICT (content): Merge conflict in index.ts
+      :QUIT!
       <br />
-      Automatic merge failed; fix conflicts and then commit the result.
+      <span className="token red">E492: Not an editor command: QUIT!</span>
+      <br />
+      :HELP
+      <br />
+      <span className="token red">E492: Not an editor command: HELP</span>
+      <br />
+      :quit
+      <br />
+      <span className="token red">
+        E37: No write since last change (add ! to override)
+      </span>
     </div>,
   ];
 

@@ -52,7 +52,7 @@ const projects: Project[] = [
     longDescription:
       "I've always been interested in cyber security, and I've done penetration testing for over four years. I've gained a good understanding of cyber security, and because of my programming background, I also understand how the applications work on the technical side.\n\r Some of the biggest companies I've done penetration testing for include Visma, LähiTapiola,  VR-Yhtymä, Posti, Essote, Kymsote, and Väylävirasto. In 2019 I was interviewed by Kyberturvallisuuskeskus (CERT-FI) after finding severe vulnerabilities in a home automation system. You can read the article [here](https://www.kyberturvallisuuskeskus.fi/fi/ajankohtaista/toni-ruhanen-ja-muut-valkohatut-kuuluvat-hyvisjengiin).",
     frameworks: ["Web", "Linux", "Windows"],
-    languages: ["Multiple"],
+    languages: ["Python", "Bash", "PowerShell"],
     imageUrl: "/images/projects/router.webp",
     spotlight: true,
     team: "Toni Ruhanen",
