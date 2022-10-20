@@ -2,7 +2,11 @@ import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 
 const Skills = () => {
   return (
-    <section id="skills" className="container" style={{ marginTop: "1rem" }}>
+    <section
+      id="skills"
+      className="container"
+      style={{ marginTop: "1rem", display: "none" }}
+    >
       <div className="row">
         <div className="col-md-12">
           <span className="section-subheader">Techniques & Languages</span>
@@ -18,6 +22,7 @@ const Skills = () => {
                   <Tab>Certifications</Tab>
                 </TabList>
               </div>
+              {/* TODO: Come up with some text for the skills section */}
               <div className="col-md-9">
                 <TabPanel>
                   <p>
