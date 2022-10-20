@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
 import codeSnippets from "../../data/codeSnippets";
 import skills from "../../data/skills";
 
@@ -20,7 +21,17 @@ const Jumbotron = () => {
               </div>
               <h1 className="heading-hero">
                 I&apos;m <span className="text-highlight">Toni Ruhanen</span>, a
-                Fullstack developer.
+                <br />
+                <Typewriter
+                  words={[
+                    "Fullstack Developer",
+                    "Cyber Security Specialist",
+                    "System Administrator",
+                    "University Student",
+                  ]}
+                  cursor
+                  loop
+                />
               </h1>
               <div className="skill-badges">
                 {skills.map((skill) => (
