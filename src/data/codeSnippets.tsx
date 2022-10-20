@@ -74,7 +74,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token gra">undefined</span>
     </div>,
     <div key="alert-1-code" className="token blu">
-      &gt;{" "}
+      &gt; {/* eslint-disable-next-line no-alert */}
       <a className="token whi pointer" onClick={() => alert(1)}>
         alert(1)
       </a>

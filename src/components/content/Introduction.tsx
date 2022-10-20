@@ -1,5 +1,7 @@
 import dayjs from "dayjs";
 import Image from "next/image";
+import getTotalCommits from "../../data/commits";
+import getTotalVulns from "../../data/vulns";
 
 const Introduction = () => {
   return (
@@ -27,12 +29,12 @@ const Introduction = () => {
           <div className="row pb-4 no-select">
             <div className="col-md-3">
               <span className="stat-number">
-                {dayjs().diff("2003-11-24", "year")}
+                {dayjs().diff("2003-11-24", "year", false)}
               </span>
               <span className="stat-description">Years Old</span>
             </div>
             <div className="col-md-3">
-              <span className="stat-number">1100+</span>
+              <span className="stat-number">{getTotalCommits()}+</span>
               <span className="stat-description">Commits</span>
             </div>
             <div className="col-md-3">
@@ -42,7 +44,7 @@ const Introduction = () => {
               <span className="stat-description">Years of Coding</span>
             </div>
             <div className="col-md-3">
-              <span className="stat-number">40+</span>
+              <span className="stat-number">{getTotalVulns()}+</span>
               <span className="stat-description">Vulns. reported</span>
             </div>
           </div>
@@ -61,8 +63,8 @@ const Introduction = () => {
             bounties.
           </p>
           <p>
-            I also have the cutest dog in the world, and I love spending time
-            with her. I also enjoy going hiking and camping in the summer.
+            During my free time, I enjoy hiking, camping in the summer, and
+            playing with my dogs.
           </p>
         </div>
       </div>
