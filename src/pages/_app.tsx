@@ -4,7 +4,7 @@ import "../styles/App.scss";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Footer from "../components/content/Footer";
-import Navbar from "../components/content/Navbar";
+import NewNavbar from "../components/content/NewNavbar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="page-content">
-        <Navbar />
+        <NewNavbar />
         <Component {...pageProps} />
         <Footer />
       </div>
