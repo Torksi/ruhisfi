@@ -2,33 +2,39 @@
   background-color: rgba(15, 23, 42, 0.5);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border-color);
-  padding: 0.1rem 0.5rem;
+  padding: 0.4rem;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #cbd5e1;
+  .navbar-toggler-icon {
+    background-image: none;
+    color: #cbd5e1;
+  }
 }
 
 .nav-link-icon {
-  font-size: 1.5rem;
-  padding-left: 0.5rem;
+  font-size: 1.5rem !important;
 }
 
 .nav-link {
   &:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 
 .navbar-brand {
-  color: var(--color-text-header);
-  font-weight: 600;
+  color: var(--color-text-header) !important;
+  font-weight: 600 !important;
   &:hover {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 
 .navbar-nav {
-  flex-direction: row;
-
   .nav-link {
-    color: #cbd5e1;
+    color: #cbd5e1 !important;
     &:hover {
       color: var(--color-text-header) !important;
     }
