@@ -1,16 +1,12 @@
 import Image from "next/image";
 import Markdown from "markdown-to-jsx";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { GetStaticPaths } from "next";
 import projects from "../../data/projects";
 import Title from "../../components/Title";
+import { Project } from "../../types/Project";
 
-export default function ProjectPage() {
-  const router = useRouter();
-  const { id } = router.query;
-
-  const project = projects.find((pr) => pr.id === id);
-
+export default function ProjectPage({ project }: { project: Project }) {
   if (!project) {
     return (
       <>
@@ -138,3 +134,15 @@ export default function ProjectPage() {
     </>
   );
 }
+
+export async function getStaticProps({ params }: { params: any }) {
+  const { id } = params;
+  return { props: { project: projects.find((pr) => pr.id === id) } };
+}
+
+export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
+  return {
+    paths: [],
+    fallback: "blocking",
+  };
+};
