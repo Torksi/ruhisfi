@@ -19,6 +19,22 @@ const projects: Project[] = [
     spotlight: true,
   },
   {
+    id: "urlcheck",
+    name: "urlcheck",
+    version: "1.0",
+    date: "02/2023",
+    shortDescription:
+      "Tool for scanning websites that might contain malicious content. Made especially for handling phishing sites.",
+    longDescription:
+      "As an Information Security Specialist, I have a crucial role in keeping sensitive information secure and protected. One of my daily tasks is to handle phishing reports and ensure that the company is safe from potential cyber attacks. However, the tools I used didn't really have all the features I needed and I had to use multiple different tools just to complete my work efficiently. This became a tedious and time-consuming process.\n\rThat's when I realized I needed a better solution. I wanted to combine all the useful features from these different tools into one comprehensive tool. I had a vision of having a single platform which I could use to easily analyse phishing reports and carry out my work more efficiently.\n\rSo, I decided to take matters into my own hands and embarked on a project to create a new tool that would meet all my needs. I put in the time and effort to create something that would simplify my work and make my job easier. I am proud to say that I succeeded in creating a tool that has all the features I need and more. It has made a huge difference in the way I work and has made my job much more manageable.",
+    frameworks: ["Next.js", "Puppeteer", "Postgres", "Node.js"],
+    languages: ["TypeScript", "Sass"],
+    imageUrl: "/images/projects/urlcheck.webp",
+    sourceUrl: "https://github.com/Torksi/urlcheck",
+    demoUrl: "https://urlcheck.ruhis.fi",
+    spotlight: true,
+  },
+  {
     id: "haltic",
     name: "Haltic",
     date: "01/2022 - 2023",
@@ -67,7 +83,7 @@ const projects: Project[] = [
     languages: ["Java", "JavaScript"],
     imageUrl: "/images/projects/aao22.webp",
     sourceUrl: "https://github.com/CloudCraftSMP/8AAO-Core",
-    spotlight: true,
+    spotlight: false,
     team: "Toni Ruhanen, Daniel Adams (dandabs)",
   },
   {
