@@ -22,7 +22,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       </span>
       <br />
       <span className="token whi">
-        LookingForJob &nbsp;&nbsp;&nbsp;&nbsp;: True
+        LookingForJob &nbsp;&nbsp;&nbsp;&nbsp;: False
       </span>
       <br />
       <span className="token whi">
@@ -45,7 +45,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token whi">
         Title
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        Fullstack Developer
+        Information Security Specialist
       </span>
       <br />
       <span className="token whi">

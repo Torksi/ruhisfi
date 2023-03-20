@@ -1,7 +1,8 @@
 const getTotalVulns = () => {
   const commits = {
+    hackerone: 0,
     hackrfi: 4,
-    internal: 20,
+    internal: 24,
     lh_hackday: 3,
     cert_fi: 3,
     misc: 22,
