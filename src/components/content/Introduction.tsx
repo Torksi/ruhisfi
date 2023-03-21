@@ -22,6 +22,7 @@ const Introduction = () => {
               alt="Toni Ruhanen"
               className="mx-auto rounded-circle no-select"
               loading="eager"
+              unoptimized
             />
           </div>
         </div>

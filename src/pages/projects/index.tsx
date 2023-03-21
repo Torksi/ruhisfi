@@ -35,7 +35,7 @@ export default function ProjectPage() {
                       {project.languages.join(", ")}
                     </span>
                   </p>
-                  <p title="Frameworks/APIs used" className="pb-2">
+                  <p title="Techniques used" className="pb-2">
                     <i className="ri-tools-fill project-icon" />
                     <span className="project-tags-list">
                       {project.frameworks.join(", ")}
