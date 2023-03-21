@@ -53,9 +53,12 @@ export default function ProjectPage({ project }: { project: Project }) {
         <div className="row">
           <h1 className="section-header">Project: {project.name}</h1>
           <div className="col-md-6 mb-4">
-            <Markdown>
-              {project.longDescription || project.shortDescription}
-            </Markdown>
+            <div className="mb-2">
+              <Markdown>
+                {project.longDescription || project.shortDescription}
+              </Markdown>
+            </div>
+
             <p title="Languages used">
               <i className="ri-code-s-slash-fill project-icon" />
               <span className="project-tags-list">
@@ -63,10 +66,10 @@ export default function ProjectPage({ project }: { project: Project }) {
                 {project.languages.join(", ")}
               </span>
             </p>
-            <p title="Frameworks/APIs used">
+            <p title="Techniques used">
               <i className="ri-tools-fill project-icon" />
               <span className="project-tags-list">
-                <span className="text-white">Frameworks/APIs used: </span>
+                <span className="text-white">Techniques used: </span>
                 {project.frameworks.join(", ")}
               </span>
             </p>

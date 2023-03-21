@@ -35,7 +35,7 @@ const Projects = () => {
                     {project.languages.join(", ")}
                   </span>
                 </p>
-                <p title="Frameworks/APIs used" className="pb-2">
+                <p title="Techniques used" className="pb-2">
                   <i className="ri-tools-fill project-icon" />
                   <span className="project-tags-list">
                     {project.frameworks.join(", ")}
@@ -51,11 +51,9 @@ const Projects = () => {
             </div>
           ))}
         <p className="text-center">
-          View all of my projects{" "}
           <Link href="/projects">
-            <a>here</a>
+            <a className="project-button">View all of my projects here</a>
           </Link>
-          !
         </p>
       </div>
     </section>
