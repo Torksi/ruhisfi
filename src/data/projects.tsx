@@ -49,6 +49,20 @@ const projects: Project[] = [
     spotlight: true,
   },
   {
+    id: "silverbullet",
+    name: "SilverBullet",
+    version: "3.0",
+    date: "01/2023",
+    shortDescription:
+      "10kb reverse shell that bypasses (almost) all publicly available enterprise AV solutions.",
+    longDescription:
+      "SilverBullet is a small (about 10kb) reverse shell that bypasses (almost) all publicly available enterprise AV solutions. I have tested it against Palo Alto Cortex XDR, Microsoft Defender, Defender for Endpoint, F-Secure, McAfee and Avast. **I will not be disclosing the source code of this project under any circumstances.**",
+    frameworks: ["AV Bypass"],
+    languages: ["Rust", "C#"],
+    imageUrl: "/images/projects/silverbullet.webp",
+    spotlight: true,
+  },
+  {
     id: "alppi",
     name: "Alppi",
     date: "06/2021 - 08/2022",
