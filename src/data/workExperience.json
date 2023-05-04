@@ -1,8 +1,15 @@
 [
   {
     "name": "Mehiläinen Oy",
-    "description": "IT Specialist",
-    "length": "Aug'22 - Present",
+    "description": "Information Security Specialist",
+    "length": "May'23 - Present",
+    "location": "Helsinki, Finland",
+    "yearsOnly": false
+  },
+  {
+    "name": "Mehiläinen Oy",
+    "description": "IT Support Specialist",
+    "length": "Aug'22 - Apr'23",
     "location": "Helsinki, Finland",
     "yearsOnly": false
   },
