@@ -22,7 +22,7 @@
     "react-tabs": "^5.1.0",
     "remixicon": "^2.5.0",
     "sass": "^1.62.1",
-    "sharp": "^0.31.1",
+    "sharp": "^0.32.1",
     "typescript": "^5.0.2",
     "webpack": "^5.76.0"
   },
