@@ -24,7 +24,7 @@
     "sass": "^1.62.1",
     "sharp": "^0.31.1",
     "typescript": "^5.0.2",
-    "webpack": "^5.76.0"
+    "webpack": "^5.84.1"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
