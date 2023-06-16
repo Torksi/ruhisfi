@@ -20,7 +20,7 @@
     "react-dom": "^18.2.0",
     "react-simple-typewriter": "^5.0.1",
     "react-tabs": "^6.0.1",
-    "remixicon": "^2.5.0",
+    "remixicon": "^3.3.0",
     "sass": "^1.62.1",
     "sharp": "^0.32.1",
     "typescript": "^5.0.2",
