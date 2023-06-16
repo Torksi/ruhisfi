@@ -5,7 +5,7 @@ const NewNavbar = () => {
   return (
     <Navbar collapseOnSelect id="navbar" expand="lg" sticky="top">
       <Container>
-        <Link href="/" passHref>
+        <Link href="/" passHref legacyBehavior>
           <Navbar.Brand>Toni Ruhanen</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="navbar-nav">
@@ -13,10 +13,10 @@ const NewNavbar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
-            <Link href="/" passHref>
+            <Link href="/" passHref legacyBehavior>
               <Nav.Link>Home</Nav.Link>
             </Link>
-            <Link href="/projects" passHref>
+            <Link href="/projects" passHref legacyBehavior>
               <Nav.Link>Projects</Nav.Link>
             </Link>
           </Nav>

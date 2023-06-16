@@ -1,6 +1,6 @@
 const getTotalCommits = () => {
   const commits = {
-    github_23: 145,
+    github_23: 220,
     github_22: 421,
     github_21: 326,
     github_old: 78,
