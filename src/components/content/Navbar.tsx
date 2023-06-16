@@ -7,25 +7,25 @@ const Navbar = () => {
       className="navbar navbar-dark sticky-top navbar-expand-lg flex-md-nowrap"
     >
       <div className="container-fluid">
-        <Link href="/">
-          <a className="navbar-brand">Toni Ruhanen</a>
+        <Link href="/" className="navbar-brand">
+          Toni Ruhanen
         </Link>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link href="/">
-                <a className="nav-link">Home</a>
+              <Link href="/" className="nav-link">
+                Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/projects">
-                <a className="nav-link">Blog</a>
+              <Link href="/projects" className="nav-link">
+                Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/projects">
-                <a className="nav-link">Portfolio</a>
+              <Link href="/projects" className="nav-link">
+                Portfolio
               </Link>
             </li>
           </ul>

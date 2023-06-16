@@ -17,15 +17,14 @@ export default function ProjectPage({ project }: { project: Project }) {
               <h1 className="text-center section-header">404</h1>
               <h3 className="text-center">Project not found.</h3>
               <p className="text-center pt-2">
-                <Link href="/">
-                  <a
-                    style={{
-                      textDecoration: "none",
-                      color: "var(--color-text-highlight)",
-                    }}
-                  >
-                    Go back to home
-                  </a>
+                <Link
+                  href="/"
+                  style={{
+                    textDecoration: "none",
+                    color: "var(--color-text-highlight)",
+                  }}
+                >
+                  Go back to home
                 </Link>
               </p>
             </div>
@@ -39,16 +38,14 @@ export default function ProjectPage({ project }: { project: Project }) {
     <>
       <Title title={`Project: ${project.name}`} />
       <div className="container project-page pt-3">
-        <Link href="/projects">
-          <a className="breadcrumb-link">
-            <i
-              className="ri-arrow-left-line"
-              style={{ verticalAlign: "center" }}
-            />
-            <span style={{ verticalAlign: "center", marginLeft: "0.2rem" }}>
-              Go back
-            </span>
-          </a>
+        <Link href="/projects" className="breadcrumb-link">
+          <i
+            className="ri-arrow-left-line"
+            style={{ verticalAlign: "center" }}
+          />
+          <span style={{ verticalAlign: "center", marginLeft: "0.2rem" }}>
+            Go back
+          </span>
         </Link>
         <div className="row">
           <h1 className="section-header">Project: {project.name}</h1>

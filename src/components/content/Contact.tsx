@@ -59,8 +59,8 @@ const Contact = () => {
           >
             <Image
               src="/images/code.webp"
-              height="325px"
-              width="325px"
+              height="325"
+              width="325"
               alt="Code"
               className="mx-auto rounded-circle no-select contact-image"
               loading="eager"

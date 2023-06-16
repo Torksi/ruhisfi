@@ -15,16 +15,14 @@ const Projects = () => {
             <div key={`project-${project.id}`} className="col-md-4 mb-3">
               <div className="project-card">
                 <Link href={`/projects/${project.id}`}>
-                  <a>
-                    <Image
-                      src={project.imageUrl}
-                      alt={project.name}
-                      width={275}
-                      height={149}
-                      className="project-image pointer no-select"
-                      loading="lazy"
-                    />
-                  </a>
+                  <Image
+                    src={project.imageUrl}
+                    alt={project.name}
+                    width={275}
+                    height={149}
+                    className="project-image pointer no-select"
+                    loading="lazy"
+                  />
                 </Link>
 
                 <p className="project-name">{project.name}</p>
@@ -41,18 +39,19 @@ const Projects = () => {
                     {project.frameworks.join(", ")}
                   </span>
                 </p>
-                <Link href={`/projects/${project.id}`}>
-                  <a className="project-button">
-                    <i className="ri-arrow-right-up-line project-icon" />
-                    <span style={{ verticalAlign: "center" }}>Read more</span>
-                  </a>
+                <Link
+                  href={`/projects/${project.id}`}
+                  className="project-button"
+                >
+                  <i className="ri-arrow-right-up-line project-icon" />
+                  <span style={{ verticalAlign: "center" }}>Read more</span>
                 </Link>
               </div>
             </div>
           ))}
         <p className="text-center">
-          <Link href="/projects">
-            <a className="project-button">View all of my projects here</a>
+          <Link href="/projects" className="project-button">
+            View all of my projects here
           </Link>
         </p>
       </div>
