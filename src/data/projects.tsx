@@ -8,28 +8,42 @@ const projects: Project[] = [
     version: "3.0",
     date: "09/2022",
     shortDescription:
-      "My personal website and portfolio. A place where I showcase my experience and different projects I've done.",
+      "Portfolio, a place where I showcase my experience and different projects I've done.",
     longDescription:
       "I made my first website in 2011 and this is probably the hundredth time of me remaking it. This time I'm using Next.js and TypeScript to make it more performant and easier to maintain. The code is automatically deployed through GitHub Actions to Vercel.",
     frameworks: ["Next.js", "Vercel"],
     languages: ["TypeScript", "Sass"],
-    imageUrl: "/images/projects/ruhis.webp",
+    imageUrl: "/images/projects/ruhis2.png",
     sourceUrl: "https://github.com/Torksi/ruhisfi",
     demoUrl: "https://ruhis.fi",
+    spotlight: true,
+  },
+  {
+    id: "vanguard",
+    name: "Vanguard",
+    version: "1.0",
+    date: "06/2023",
+    shortDescription:
+      "Full-fledged SIEM with endpoint agents, SOAR, integrations and attack surface monitoring.",
+    longDescription:
+      "I made my first website in 2011 and this is probably the hundredth time of me remaking it. This time I'm using Next.js and TypeScript to make it more performant and easier to maintain. The code is automatically deployed through GitHub Actions to Vercel.",
+    frameworks: ["Node.js", "Next.js"],
+    languages: ["TypeScript", "C#", "Rust"],
+    imageUrl: "/images/projects/vanguard.png",
     spotlight: true,
   },
   {
     id: "urlcheck",
     name: "urlcheck",
     version: "1.0",
-    date: "02/2023",
+    date: "02/2023 - 07/2023",
     shortDescription:
       "Tool for scanning websites that might contain malicious content. Made especially for handling phishing sites.",
     longDescription:
       "As an Information Security Specialist, I have a crucial role in keeping sensitive information secure and protected. One of my daily tasks is to handle phishing reports and ensure that the company is safe from potential cyber attacks. However, the tools I used didn't really have all the features I needed and I had to use multiple different tools just to complete my work efficiently. This became a tedious and time-consuming process.\n\rThat's when I realized I needed a better solution. I wanted to combine all the useful features from these different tools into one comprehensive tool. I had a vision of having a single platform which I could use to easily analyse phishing reports and carry out my work more efficiently.\n\rSo, I decided to take matters into my own hands and embarked on a project to create a new tool that would meet all my needs. I put in the time and effort to create something that would simplify my work and make my job easier. I am proud to say that I succeeded in creating a tool that has all the features I need and more. It has made a huge difference in the way I work and has made my job much more manageable.",
     frameworks: ["Next.js", "Puppeteer", "Postgres", "Node.js"],
     languages: ["TypeScript", "Sass"],
-    imageUrl: "/images/projects/urlcheck.webp",
+    imageUrl: "/images/projects/urlcheck2.png",
     sourceUrl: "https://github.com/Torksi/urlcheck",
     demoUrl: "https://urlcheck.ruhis.fi",
     spotlight: true,
@@ -37,7 +51,7 @@ const projects: Project[] = [
   {
     id: "haltic",
     name: "Haltic",
-    date: "01/2022 - 2023",
+    date: "01/2022 - 06/2023",
     shortDescription:
       "Modern ERP system for small businesses. Especially designed for the construction industry.",
     longDescription:
@@ -88,19 +102,6 @@ const projects: Project[] = [
     team: "Toni Ruhanen",
   },
   {
-    id: "aao",
-    name: "ÁAOcore",
-    date: "01/2022 - 08/2022",
-    shortDescription:
-      "Collaborative platform for controlling cameras, pyrotechnics and cues at live shows in Minecraft.",
-    frameworks: ["Spigot API", "Node.js", "Redis", "MySQL"],
-    languages: ["Java", "JavaScript"],
-    imageUrl: "/images/projects/aao22.webp",
-    sourceUrl: "https://github.com/CloudCraftSMP/8AAO-Core",
-    spotlight: false,
-    team: "Toni Ruhanen, Daniel Adams (dandabs)",
-  },
-  {
     id: "cloudcraft-recap",
     name: "CloudCraft Recap 2021",
     date: "01/2022",
@@ -113,6 +114,19 @@ const projects: Project[] = [
     demoUrl: "https://recap.cloudcraft.fi/",
     spotlight: true,
     team: "Toni Ruhanen",
+  },
+  {
+    id: "aao",
+    name: "ÁAOcore",
+    date: "01/2022 - 08/2022",
+    shortDescription:
+      "Collaborative platform for controlling cameras, pyrotechnics and cues at live shows in Minecraft.",
+    frameworks: ["Spigot API", "Node.js", "Redis", "MySQL"],
+    languages: ["Java", "JavaScript"],
+    imageUrl: "/images/projects/aao22.webp",
+    sourceUrl: "https://github.com/CloudCraftSMP/8AAO-Core",
+    spotlight: true,
+    team: "Toni Ruhanen, Daniel Adams (dandabs)",
   },
   {
     id: "sanuli-solver",
