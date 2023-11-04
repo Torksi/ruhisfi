@@ -74,16 +74,6 @@ const projects: Project[] = [
     spotlight: true,
     team: "Toni Ruhanen",
   },
-
-  {
-    id: "penetration-testing",
-    name: "Penetration Testing",
-    shortDescription:
-      "I've done penetration testing for over 4 years and gained a good understanding of cyber security.",
-    imageUrl: "/images/projects/router.webp",
-    spotlight: true,
-    team: "Toni Ruhanen",
-  },
   {
     id: "cloudcraft-recap",
     name: "CloudCraft Recap 2021",

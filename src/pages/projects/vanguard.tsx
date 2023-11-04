@@ -146,6 +146,31 @@ export default function VanguardProject() {
         </div>
       </div>
       <div className="row mb-4">
+        <div className="col-md-6">
+          <ImagePopup
+            src="/images/projects/vanguard/logs.png"
+            alt="Temporary screenshot"
+            className="project-image img-fluid"
+            showAltInThumbnail
+          />
+        </div>
+        <div className="col-md-6">
+          <span className="section-subheader">
+            Better visibility into assets
+          </span>
+          <h2 className="section-header">Attack Surface Monitoring</h2>
+          <p>
+            I'm currently working on a new feature called Attack Surface
+            Monitoring. It allows Vanguard to monitor the attack surface of the
+            organization and detect possible threats. It does this by collecting
+            information about the organization's assets from different sources,
+            and then scanning and comparing them to known IOCs. If a threat is
+            detected, Vanguard will automatically raise an alert and if
+            possible, take the necessary actions to mitigate it.
+          </p>
+        </div>
+      </div>
+      <div className="row mb-4">
         <span className="section-subheader">
           Technologies used, architecture, and more
         </span>
