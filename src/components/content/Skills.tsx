@@ -28,11 +28,11 @@ const Skills = () => {
                   <div className="tab-content tab-content-infosec">
                     <div className="content col-md-9">
                       <p>
-                        I've always been interested in Information Security, and
-                        it's been my main hobby for a long time now. Even though
-                        I'm still relatively young, I've already gained a lot of
-                        experience in the field. I have seen both sides of the
-                        coin, as I've done both offensive and defensive work.
+                        Information Security has been a hobby of mine for a long
+                        time now. Even though I'm still relatively young, I've
+                        already gained a lot of experience in the field. I have
+                        seen both sides of the coin, as I've done both offensive
+                        and defensive work.
                       </p>
                       <p>
                         I have a lot of experience in <b>Incident Response</b>,
