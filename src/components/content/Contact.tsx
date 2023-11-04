@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section id="contact" className="container" style={{ marginTop: "1rem" }}>
+    <section id="contact" className="container" style={{ marginTop: "2rem" }}>
       <div className="row">
         <div className="col-md-6">
           <span className="section-subheader">Contact</span>

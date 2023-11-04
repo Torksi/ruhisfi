@@ -1,7 +1,6 @@
 import dayjs from "dayjs";
 import Image from "next/image";
 import getTotalCommits from "../../data/commits";
-import getTotalVulns from "../../data/vulns";
 
 const Introduction = () => {
   return (
@@ -45,12 +44,14 @@ const Introduction = () => {
               <span className="stat-description">Years of Coding</span>
             </div>
             <div className="col-md-3">
-              <span className="stat-number">{getTotalVulns()}+</span>
-              <span className="stat-description">Vulns. reported</span>
+              <span className="stat-number">
+                {dayjs().diff("2017-01-01", "year")}+
+              </span>
+              <span className="stat-description">Years of Infosec</span>
             </div>
           </div>
           <p>
-            I&apos;m a Fullstack developer and a cybersecurity enthusiast from
+            I'm a Fullstack developer and a cybersecurity enthusiast from
             Helsinki, Finland. My focus area has always been backend development
             with <strong>TypeScript</strong> and <strong>Java</strong> because I
             enjoy creating the complex logic behind applications.
@@ -65,7 +66,7 @@ const Introduction = () => {
           </p>
           <p>
             During my free time, I enjoy hiking, camping in the summer, and
-            playing with my dogs.
+            playing with my dogs. I'm also a volunteer firefighter.
           </p>
         </div>
       </div>
