@@ -98,17 +98,6 @@ const projects: Project[] = [
     team: "Toni Ruhanen, Daniel Adams (dandabs)",
   },
   {
-    id: "alppi",
-    name: "Alppi",
-    date: "06/2021 - 08/2022",
-    shortDescription:
-      "Cloud based ERP designed for small businesses. Replaced by Haltic.",
-    imageUrl: "/images/projects/alppi.webp",
-    demoUrl: "https://alppi.ruhis.fi",
-    spotlight: false,
-    team: "Toni Ruhanen",
-  },
-  {
     id: "sanuli-solver",
     name: "Sanuli Solver",
     date: "06/2022",
@@ -117,6 +106,17 @@ const projects: Project[] = [
     imageUrl: "/images/projects/sanuli.jpg",
     sourceUrl: "https://github.com/Torksi/sanuli-solver",
     demoUrl: "https://sanuli-solver.vercel.app/",
+    spotlight: true,
+    team: "Toni Ruhanen",
+  },
+  {
+    id: "alppi",
+    name: "Alppi",
+    date: "06/2021 - 08/2022",
+    shortDescription:
+      "Cloud based ERP designed for small businesses. Replaced by Haltic.",
+    imageUrl: "/images/projects/alppi.webp",
+    demoUrl: "https://alppi.ruhis.fi",
     spotlight: false,
     team: "Toni Ruhanen",
   },
