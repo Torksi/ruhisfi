@@ -1,0 +1,12 @@
+# Information related to reporting security vulnerabilities of this site.
+
+# How to communicate about security issues.
+Contact: mailto:security@ruhis.fi
+
+# Expires
+Expires: 2027-01-01T00:00:00.000Z
+
+# Preferred languages for communication.
+Preferred-Languages: fi, en
+
+# Please see https://securitytxt.org/ for details of the specification of this file.

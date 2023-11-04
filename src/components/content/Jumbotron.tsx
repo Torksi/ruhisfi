@@ -20,16 +20,10 @@ const Jumbotron = () => {
                 Welcome to my site.
               </div>
               <h1 className="heading-hero">
-                I'm <span className="text-highlight">Toni Ruhanen</span>, a
+                I'm <span className="text-highlight">Toni Ruhanen</span>,
                 <br />
                 <Typewriter
-                  words={[
-                    "Cyber Security Specialist",
-                    "System Administrator",
-                    "Fullstack Developer",
-                    "Penetration Tester",
-                    "Student",
-                  ]}
+                  words={["Hacker", "Developer", "Student"]}
                   cursor
                   loop
                 />

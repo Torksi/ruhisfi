@@ -65,14 +65,10 @@
 .project-info {
   position: absolute;
   bottom: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0)
-  ); /* Gradient fade effect */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
   color: white;
   width: 100%;
-  height: 50%; /* Set the height of the fade effect to 50% of the parent */
+  height: 50%;
   display: flex;
   align-items: flex-end;
   padding: 10px;
@@ -89,19 +85,19 @@
   color: #e6e7e9;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* Limit to two lines */
+  -webkit-line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
   font-style: italic;
-  margin: 0; /* To ensure no extra space */
-  line-height: 1.2; /* Adjust line height as needed */
-  height: 2.5em; /* This should be line-height * number of lines */
-  width: 100%; /* Ensure it spans the full width of its container */
+  margin: 0;
+  line-height: 1.2;
+  height: 2.5em;
+  width: 100%;
 }
 
 .project-btn-primary {
   border-radius: 0.25rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 0.75rem;
   background-image: linear-gradient(to top right, var(--gradient-stops));
   --gradient-from: #06b6d4;
@@ -111,7 +107,7 @@
   margin-left: 0.2rem;
   margin-right: 0.2rem;
   color: #fff;
-  transition: background-image 1.5s ease; /* Add this line for the transition */
+  transition: background-image 1.5s ease;
   text-decoration: none;
 
   &:hover {
@@ -121,5 +117,6 @@
     --gradient-stops: var(--gradient-from), #0ea5e9, var(--gradient-to);
     color: #fff;
     text-decoration: none;
+    transition: background-image 1.5s ease;
   }
 }
