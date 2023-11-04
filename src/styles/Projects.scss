@@ -1,10 +1,9 @@
 .project-card {
   background-color: #1e293b;
-  border-radius: 0.5rem;
-  border: 2px solid var(--border-color);
-  padding: 1rem;
-  text-align: center;
-  height: 100%;
+  border: 1px solid var(--border-color);
+  padding: 0rem;
+  height: 15rem;
+  position: relative;
 
   p {
     margin-bottom: 0.4rem;
@@ -54,5 +53,73 @@
 .project-page {
   p {
     font-size: 1.125rem;
+  }
+}
+
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0)
+  ); /* Gradient fade effect */
+  color: white;
+  width: 100%;
+  height: 50%; /* Set the height of the fade effect to 50% of the parent */
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.project-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+  display: block;
+}
+
+.project-description {
+  color: #e6e7e9;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* Limit to two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+  margin: 0; /* To ensure no extra space */
+  line-height: 1.2; /* Adjust line height as needed */
+  height: 2.5em; /* This should be line-height * number of lines */
+  width: 100%; /* Ensure it spans the full width of its container */
+}
+
+.project-btn-primary {
+  border-radius: 0.25rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  background-image: linear-gradient(to top right, var(--gradient-stops));
+  --gradient-from: #06b6d4;
+  --gradient-to: #3b82f6;
+  --gradient-stops: var(--gradient-from), #0ea5e9, var(--gradient-to);
+  padding: 0.6rem 0.75rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  color: #fff;
+  transition: background-image 1.5s ease; /* Add this line for the transition */
+  text-decoration: none;
+
+  &:hover {
+    background-image: linear-gradient(to top left, var(--gradient-stops));
+    --gradient-from: #06b6d4;
+    --gradient-to: #3b82f6;
+    --gradient-stops: var(--gradient-from), #0ea5e9, var(--gradient-to);
+    color: #fff;
+    text-decoration: none;
   }
 }

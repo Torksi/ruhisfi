@@ -62,3 +62,17 @@ a {
     color: var(--color-text-highlight);
   }
 }
+
+.modal-content {
+  background-color: var(--color-background);
+}
+
+.alert {
+  padding: 0.6rem 0.75rem;
+}
+
+.alert-warning {
+  color: #fff;
+  border-color: #ff5e00;
+  background-color: rgba(#ff5e00, 0.2);
+}
