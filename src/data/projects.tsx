@@ -64,6 +64,15 @@ const projects: Project[] = [
     team: "Toni Ruhanen",
   },
   {
+    id: "yara",
+    name: "Yara Node.js library",
+    date: "2023",
+    shortDescription:
+      "Node.js library for parsing and executing Yara rules without external dependencies.",
+    imageUrl: "/images/projects/yara/redline_demo.webp",
+    spotlight: true,
+  },
+  {
     id: "silverbullet",
     name: "SilverBullet",
     version: "3.0",
@@ -106,7 +115,7 @@ const projects: Project[] = [
     imageUrl: "/images/projects/sanuli.jpg",
     sourceUrl: "https://github.com/Torksi/sanuli-solver",
     demoUrl: "https://sanuli-solver.vercel.app/",
-    spotlight: true,
+    spotlight: false,
     team: "Toni Ruhanen",
   },
   {
