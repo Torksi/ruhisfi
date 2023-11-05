@@ -2,14 +2,8 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot-Image
-Disallow: /*.webp$
-Disallow: /*.png$
-Disallow: /*.jpeg$
-Disallow: /*.jpg$
-
 # Host
-Host: https://www.ruhis.fi
+Host: https://ruhis.fi
 
 # Sitemaps
-Sitemap: https://www.ruhis.fi/sitemap.xml
+Sitemap: https://ruhis.fi/sitemap.xml
