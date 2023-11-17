@@ -71,6 +71,15 @@ module.exports = {
     "react-hooks/exhaustive-deps": 2,
     "no-bitwise": 2,
     "no-param-reassign": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: ["arrow-function", "function-declaration"],
+        unnamedComponents: "arrow-function",
+      },
+    ],
+    "react/no-unescaped-entities": 0,
+    "@next/next/no-img-element": 0,
   },
   settings: {
     "import/resolver": {

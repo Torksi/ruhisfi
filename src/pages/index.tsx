@@ -4,8 +4,9 @@ import Experience from "../components/content/Experience";
 import Projects from "../components/content/Projects";
 import Title from "../components/Title";
 import Contact from "../components/content/Contact";
+import Skills from "../components/content/Skills";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Title title="Home" />
@@ -16,8 +17,11 @@ export default function Home() {
         <Introduction />
         <Experience />
         <Projects />
+        <Skills />
         <Contact />
       </div>
     </>
   );
-}
+};
+
+export default Home;

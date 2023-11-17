@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import dayjs from "dayjs";
 
 const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
-  const codeSnippets = [
+  const codes = [
     <div key="neofetch-code">
       <span className="token whi">PS C:\&gt; </span>
       <span className="token yel">Get-ADUser </span>
@@ -20,7 +22,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       </span>
       <br />
       <span className="token whi">
-        LookingForJob &nbsp;&nbsp;&nbsp;&nbsp;: True
+        LookingForJob &nbsp;&nbsp;&nbsp;&nbsp;: False
       </span>
       <br />
       <span className="token whi">
@@ -43,7 +45,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token whi">
         Title
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        Fullstack Developer
+        Information Security Specialist
       </span>
       <br />
       <span className="token whi">
@@ -72,7 +74,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token gra">undefined</span>
     </div>,
     <div key="alert-1-code" className="token blu">
-      &gt;{" "}
+      &gt; {/* eslint-disable-next-line no-alert */}
       <a className="token whi pointer" onClick={() => alert(1)}>
         alert(1)
       </a>
@@ -88,7 +90,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token gre">{`"${dayjs().format("dddd")}"`}</span>;<br />
       {"}"}
     </div>,
-    <div className="token whi">
+    <div key="vim-exit-code" className="token whi">
       :QUIT
       <br />
       <span className="token red">E492: Not an editor command: QUIT</span>
@@ -110,10 +112,9 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
   ];
 
   if (idx !== undefined) {
-    return codeSnippets[idx];
-  } else {
-    return codeSnippets[Math.floor(Math.random() * codeSnippets.length)];
+    return codes[idx];
   }
+  return codes[Math.floor(Math.random() * codes.length)];
 };
 
 export default codeSnippets;

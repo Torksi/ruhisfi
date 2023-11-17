@@ -6,10 +6,7 @@ export interface Project {
   spotlight?: boolean;
   team?: string;
   shortDescription: string;
-  longDescription?: string;
   imageUrl: string;
   sourceUrl?: string;
   demoUrl?: string;
-  languages: string[];
-  frameworks: string[];
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
+import dayjs from "dayjs";
 import codeSnippets from "../../data/codeSnippets";
-import skills from "../../data/skills";
 
 const Jumbotron = () => {
   const [randomCode, setRandomCode] = useState(<span>Loading...</span>);
@@ -19,33 +20,25 @@ const Jumbotron = () => {
                 Welcome to my site.
               </div>
               <h1 className="heading-hero">
-                I&apos;m <span className="text-highlight">Toni Ruhanen</span>, a
-                Fullstack developer.
+                I'm <span className="text-highlight">Toni Ruhanen</span>,
+                <br />
+                <Typewriter
+                  words={["Hacker", "Developer", "Student"]}
+                  cursor
+                  loop
+                />
               </h1>
-              <div className="skill-badges">
-                {skills.map((skill) => (
-                  <div key={`skill-badge-${skill.id}`} className="skill-badge">
-                    <i className={`${skill.icon} skill-icon`} />
-                    {skill.label}
-                  </div>
-                ))}
-              </div>
             </header>
             <main>
               <p>
-                Programming has been my hobby for almost 12 years now, and
-                I&apos;ve managed to gain a pretty good understanding of
-                different programming techniques and principles. Writing APIs
-                and backends has always been my favourite, but I can also make
-                pretty good-looking frontend applications when needed.
-              </p>
-              <p>
-                Cybersecurity is also a significant interest of mine, and
-                I&apos;ve participated in many bug bounty programs and done
-                penetration testing for almost five years. While co-operating
-                with different companies&apos; CERT and cybersecurity teams,
-                I&apos;ve gained a good understanding of incident response,
-                vulnerability management and other cybersecurity processes.
+                Programming has been my hobby for over{" "}
+                {dayjs().diff("2011-01-01", "year")} years now, and I've managed
+                to gain a pretty good understanding of different programming
+                techniques and principles. Another interest of mine is
+                Information Security, and despite my young age, I've already
+                gained a lot of experience in the field, both in the offensive
+                and defensive side. My specialities include incident response,
+                penetration testing, and malware development.
               </p>
             </main>
           </div>
@@ -57,6 +50,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>
@@ -65,6 +61,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>
@@ -73,6 +72,9 @@ const Jumbotron = () => {
                   onClick={() =>
                     setRandomCode(codeSnippets({ idx: undefined }))
                   }
+                  onKeyDown={() => null}
+                  role="button"
+                  tabIndex={0}
                 >
                   &nbsp;
                 </span>

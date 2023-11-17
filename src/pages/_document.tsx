@@ -63,6 +63,23 @@ class DefaultDocument extends Document {
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
           />
 
+          <link rel="preload" href="/images/projects/router.webp" as="image" />
+          <link
+            rel="preload"
+            href="/images/projects/firetruck.jpg"
+            as="image"
+          />
+          <link
+            rel="preload"
+            href="/images/projects/programming.png"
+            as="image"
+          />
+          <link
+            rel="preload"
+            href="/images/projects/vanguard/logs.png"
+            as="image"
+          />
+
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-N09G3K6PHV"

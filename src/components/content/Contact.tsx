@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section id="contact" className="container" style={{ marginTop: "5rem" }}>
+    <section id="contact" className="container" style={{ marginTop: "2rem" }}>
       <div className="row">
         <div className="col-md-6">
           <span className="section-subheader">Contact</span>
@@ -19,6 +19,7 @@ const Contact = () => {
               <span className="text-white">LinkedIn: </span>
               <a
                 href="https://www.linkedin.com/in/toniruhanen/"
+                rel="noreferrer"
                 target="_blank"
               >
                 Toni Ruhanen
@@ -29,7 +30,11 @@ const Contact = () => {
             <i className="contact-icon ri-github-fill" />
             <span className="contact-handle">
               <span className="text-white">GitHub: </span>
-              <a href="https://github.com/Torksi" target="_blank">
+              <a
+                href="https://github.com/Torksi"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Torksi
               </a>
             </span>
@@ -38,7 +43,7 @@ const Contact = () => {
             <i className="contact-icon ri-mail-fill" />
             <span className="contact-handle">
               <span className="text-white">Email: </span>
-              <a href="mailto:toni@ruhis.fi" target="_blank">
+              <a href="mailto:toni@ruhis.fi" rel="noreferrer" target="_blank">
                 toni@ruhis.fi
               </a>
             </span>
@@ -54,8 +59,8 @@ const Contact = () => {
           >
             <Image
               src="/images/code.webp"
-              height={"325px"}
-              width={"325px"}
+              height="325"
+              width="325"
               alt="Code"
               className="mx-auto rounded-circle no-select contact-image"
               loading="eager"

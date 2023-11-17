@@ -1,8 +1,14 @@
 [
   {
+    "name": "Laurea University of Applied Sciences",
+    "description": "Bachelor of Business Administration, Cyber Security",
+    "length": "2024 - Present",
+    "yearsOnly": true
+  },
+  {
     "name": "Haaga-Helia University of Applied Sciences",
     "description": "Bachelor of Business Administration, Business IT Technology",
-    "length": "2021 - Present",
+    "length": "2021 - 2023",
     "yearsOnly": true
   },
   {
