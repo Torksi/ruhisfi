@@ -36,8 +36,8 @@ export default function VanguardProject() {
       <div className="row mb-4">
         <div className="col-md-6">
           <ImagePopup
-            src="/images/projects/vanguard/soar.png"
-            alt="Screenshot of an incident that has been handled by SOAR"
+            src="/images/projects/vanguard/playbook-editor.png"
+            alt="Screenshot of the playbook editor"
             className="project-image img-fluid"
             showAltInThumbnail
           />
@@ -49,14 +49,13 @@ export default function VanguardProject() {
           <h2 className="section-header">SOAR</h2>
           <p>
             One of the most important features of Vanguard is the SOAR. It
-            allows the automation of handling alerts and incidents. This means
-            that before an analyst even sees the alert, Vanguard has already
-            done all the necessary enrichment and taken the necessary actions to
-            mitigate the threat. Vanguard SOAR is capable of doing things like
-            blocking IP addresses, enriching alerts, sending emails, creating
-            tickets in 3rd-party apps, and much more. According to my tests, the
-            average time to handle an incident from the moment it is detected is
-            less than 60 seconds.
+            allows the automation of almost anything, but most importantly
+            handling incidents. This means that before an analyst even sees the
+            incident, Vanguard has already enriched, investigated and resolved
+            the incident. According to my tests, the average time to handle an
+            incident from the moment it is detected is less than 45 seconds.
+            Vanguard also includes a visual playbook editor, which makes it easy
+            to create and modify playbooks.
           </p>
         </div>
       </div>
