@@ -34,7 +34,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token whi">
         City
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        Helsinki
+        Espoo
       </span>
       <br />
       <span className="token whi">

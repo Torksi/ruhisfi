@@ -51,9 +51,9 @@ const Introduction = () => {
             </div>
           </div>
           <p>
-            I'm a Fullstack developer and a cybersecurity enthusiast from
-            Helsinki, Finland. My focus area has always been backend development
-            with <strong>TypeScript</strong> and <strong>Java</strong> because I
+            I'm a Fullstack developer and a cybersecurity enthusiast from Espoo,
+            Finland. My focus area has always been backend development with{" "}
+            <strong>TypeScript</strong> and <strong>Java</strong> because I
             enjoy creating the complex logic behind applications.
           </p>
           <p>
