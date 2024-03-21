@@ -16,12 +16,12 @@ export default function VanguardProject() {
           </p>
           <p>
             For a long time I have wanted to collect all the logs and alerts
-            from my home network and servers into a single platform. I have
-            tried many open-source solutions, but none of them have had all the
-            features I wanted. That's why I decided to create Vanguard. It has
-            all the features I have gotten used to from enterprise solutions
-            like Splunk and Palo Alto Cortex, but it doesn't cost a fortune to
-            run.
+            from my home network and servers into a single platform. Despite
+            trying various open-source options, I couldn't find one that met all
+            my requirements. This led me to develop Vanguard. It incorporates
+            all the functionalities I've come to expect from enterprise-grade
+            solutions such as Splunk and Palo Alto Cortex, yet it's
+            cost-effective to operate.
           </p>
         </div>
         <div className="col-md-6">
@@ -175,10 +175,10 @@ export default function VanguardProject() {
         </span>
         <h2 className="section-header">Technical stuff</h2>
         <p>
-          Most of the code in Vanguard is written in TypeScript. The only parts
-          that are not written in TypeScript are the endpoint agents, which are
-          written in Rust and C#. The database I chose to use is PostgreSQL and
-          the logs are stored in Elasticsearch.
+          The majority of Vanguard's codebase is implemented in TypeScript,
+          except for the endpoint agents, which are crafted in Rust and C#. For
+          data management, I opted for PostgreSQL, while Elasticsearch is used
+          for log storage.
         </p>
         <p>
           Currently the Vanguard backend is running on a single server, but I
