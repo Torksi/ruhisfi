@@ -158,13 +158,17 @@ const Skills = () => {
                 <TabPanel>
                   <div className="tab-content tab-content-hobbies">
                     <div className="content col-md-9">
-                      <p>I currently have the following certifications:</p>
+                      <p>
+                        I currently have completed the following
+                        certifications/courses:
+                      </p>
                       <ul>
-                        <li>Työturvallisuuskortti (Exp. 04/2025)</li>
-                        <li>Tieturvakortti, Tieturva 1 (Exp. 11/2026)</li>
-                        <li>Tieturvakortti, Tieturva 2 (Exp. 10/2027)</li>
-                        <li>Hätäensiapu (Exp. 2026)</li>
-                        <li>EASA A1/A3 EU Drone License (Exp. 12/2026)</li>
+                        <li>Cortex XDR: Investigation and Response</li>
+                        <li>Cortex XDR: Prevention and Deployment</li>
+                        <li>
+                          Prisma Access SASE Security - Design and Operation
+                        </li>
+                        <li>EASA A1/A3 Drone Pilot License</li>
                         <li>Driving License (Category: B)</li>
                       </ul>
                     </div>
