@@ -9,19 +9,19 @@ export default function SilverBulletProject() {
           <p>
             SilverBullet is a tool I made for internal red teaming purposes. It
             is a simple C2 reverse-shell client, that is able to bypass most
-            publicly available enterprise EDRs. At first this project was just a
+            publicly available enterprise XDRs. At first this project was just a
             simple proof-of-concept, but it has evolved into a powerful tool
             that I've used in multiple red teaming engagements.
           </p>
           <div className="alert alert-warning">
-            This tool is not publicly available and never will be. I have worked
-            with some EDR vendors to fix the issues that this tool exploits.
+            The source code of this project is not available publicly and it
+            will never be.
           </div>
         </div>
         <div className="col-md-6">
           <ImagePopup
             src="/images/projects/silverbullet.webp"
-            alt="Blurred code"
+            alt="Blurred code of v3"
             className="project-image img-fluid"
           />
         </div>
@@ -30,7 +30,7 @@ export default function SilverBulletProject() {
         <div className="col-md-6">
           <ImagePopup
             src="/images/projects/silverbullet/alpha.png"
-            alt="Screenshot of the webpage"
+            alt="Console output of v3"
             className="project-image img-fluid"
           />
         </div>
@@ -39,15 +39,15 @@ export default function SilverBulletProject() {
           <h2 className="section-header">Initial development</h2>
           <p>
             This whole project started after I was challenged as a joke to
-            bypass a specific EDR. I started to research the EDR and found some
+            bypass a specific XDR. I started to research the XDR and found some
             loop-holes in it. A few days later I had a working prototype that
-            was able to bypass the EDR. After the initial success, I started to
-            research other EDRs and found out that most of them were vulnerable
+            was able to bypass the XDR. After the initial success, I started to
+            research other XDRs and found out that most of them were vulnerable
             to the same technique.
           </p>
           <p>
-            After the initial findings, I contacted some EDR vendors and
-            disclosed the vulnerabilities to them. Most of the vendors were
+            After the initial findings, I contacted some XDR vendors and
+            disclosed the exploit method to them. Most of the vendors were
             really helpful and made the necessary changes to fix the issues.
           </p>
         </div>
@@ -68,7 +68,7 @@ export default function SilverBulletProject() {
         <div className="col-md-6">
           <ImagePopup
             src="/images/projects/silverbullet/dashboard.png"
-            alt="Screenshot of the webpage"
+            alt="Web interface of v5"
             className="project-image img-fluid"
           />
         </div>
