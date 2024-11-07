@@ -1,8 +1,22 @@
 [
   {
+    "name": "Wolt",
+    "description": "Security Engineer",
+    "length": "Aug'24 - Present",
+    "location": "Helsinki, Finland",
+    "yearsOnly": false
+  },
+  {
     "name": "Mehiläinen Oy",
     "description": "Information Security Specialist",
-    "length": "May'23 - Present",
+    "length": "Apr'24 - Aug'24",
+    "location": "Helsinki, Finland",
+    "yearsOnly": false
+  },
+  {
+    "name": "Mehiläinen Oy",
+    "description": "Junior Information Security Specialist",
+    "length": "May'23 - Apr'24",
     "location": "Helsinki, Finland",
     "yearsOnly": false
   },
@@ -11,20 +25,6 @@
     "description": "IT Support Specialist",
     "length": "Aug'22 - Apr'23",
     "location": "Helsinki, Finland",
-    "yearsOnly": false
-  },
-  {
-    "name": "Gigantti Oy",
-    "description": "Distribution Specialist",
-    "length": "Apr'22 - Jul'22",
-    "location": "Helsinki, Finland",
-    "yearsOnly": false
-  },
-  {
-    "name": "Gigantti Oy",
-    "description": "Customer Support Technician",
-    "length": "Aug'21 - Apr'22",
-    "location": "Vantaa, Finland",
     "yearsOnly": false
   }
 ]

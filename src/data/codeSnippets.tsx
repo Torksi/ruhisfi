@@ -45,7 +45,7 @@ const codeSnippets = ({ idx = undefined }: { idx: number | undefined }) => {
       <span className="token whi">
         Title
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-        Information Security Specialist
+        Security Engineer
       </span>
       <br />
       <span className="token whi">
